@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="1579bf163b60f210e40d9dc643e45a89" label="drivers" max_length="40" name="x_466181_f1now_drivers" type="collection">
+        <element label="birthday" max_length="40" name="birthday" type="glide_date"/>
+        <element label="number" max_length="40" name="number" type="integer"/>
         <element label="First Name" max_length="40" name="first_name" type="string"/>
+        <element label="shortName" max_length="40" name="shortname" type="string"/>
+        <element label="url" max_length="1024" name="url" type="url"/>
         <element label="Driver ID" max_length="40" name="driver_id" type="string"/>
+        <element label="nationality" max_length="40" name="nationality" type="string"/>
         <element label="Last Name" max_length="40" name="last_name" type="string"/>
     </element>
 </database>

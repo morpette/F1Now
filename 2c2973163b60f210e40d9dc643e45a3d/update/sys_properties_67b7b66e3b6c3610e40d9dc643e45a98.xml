@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>Sets the default offset for the https://f1api.dev/api/drivers endpoint. This will be set if no offset is given.</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_466181_f1now.F1API.driver.offset</name>
+        <read_roles/>
+        <suffix>F1API.driver.offset</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-15 21:20:08</sys_created_on>
+        <sys_id>67b7b66e3b6c3610e40d9dc643e45a98</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_466181_f1now.F1API.driver.offset</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name>sys_properties_67b7b66e3b6c3610e40d9dc643e45a98</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-15 21:41:54</sys_updated_on>
+        <type>integer</type>
+        <value>150</value>
+        <write_roles/>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=67b7b66e3b6c3610e40d9dc643e45a98"/>
+</record_update>
