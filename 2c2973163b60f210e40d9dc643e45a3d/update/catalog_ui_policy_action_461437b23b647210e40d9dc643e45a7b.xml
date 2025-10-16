@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
+    <catalog_ui_policy_action action="INSERT_OR_UPDATE">
+        <catalog_item display_value="F1Now - Import Drivers">a46122be3b283210e40d9dc643e45adf</catalog_item>
+        <catalog_variable>IO:75ae27763b247210e40d9dc643e45af9</catalog_variable>
+        <cleared>false</cleared>
+        <disabled>true</disabled>
+        <field/>
+        <field_message>An offset value of 0 means that we start from the beginning, not skipping any drivers.</field_message>
+        <field_message_type>info</field_message_type>
+        <mandatory>false</mandatory>
+        <order>100</order>
+        <sys_class_name>catalog_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-16 20:22:18</sys_created_on>
+        <sys_id>461437b23b647210e40d9dc643e45a7b</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>offset</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name>catalog_ui_policy_action_461437b23b647210e40d9dc643e45a7b</sys_update_name>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2025-10-16 20:56:48</sys_updated_on>
+        <table/>
+        <ui_policy display_value="Make 'only_integer_numbers_no_text_no_decimal_values' non-mandatory &amp; read-only depending on 'get_all_drivers'">c8d3fbf63b247210e40d9dc643e45a4c</ui_policy>
+        <value>0</value>
+        <value_action>set_value</value_action>
+        <variable>offset</variable>
+        <variable_set/>
+        <visible>ignore</visible>
+    </catalog_ui_policy_action>
+    <sys_translated_text action="delete_multiple" query="documentkey=461437b23b647210e40d9dc643e45a7b"/>
+</record_update>
