@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="b0ceea033b60f210e40d9dc643e45ac1" label="Seasons" max_length="40" name="x_466181_f1now_seasons" type="collection">
+        <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
+    </element>
+</database>
