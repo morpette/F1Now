@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="4ac5e25e3b30be90e40d9dc643e45a9b" label="Season Team" max_length="40" name="x_466181_f1now_season_team" type="collection">
+        <element label="Season" max_length="32" name="season" reference="x_466181_f1now_seasons" type="reference"/>
+        <element label="Team" max_length="32" name="team" reference="x_466181_f1now_teams" type="reference"/>
+        <index name="index">
+            <element name="season"/>
+        </index>
+        <index name="index2">
+            <element name="team"/>
+        </index>
+    </element>
+</database>

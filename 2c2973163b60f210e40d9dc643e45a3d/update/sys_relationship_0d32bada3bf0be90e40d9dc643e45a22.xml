@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_relationship">
+    <sys_relationship action="INSERT_OR_UPDATE">
+        <advanced>false</advanced>
+        <apply_to/>
+        <basic_apply_to>x_466181_f1now_seasons</basic_apply_to>
+        <basic_query_from>x_466181_f1now_season_team</basic_query_from>
+        <insert_callback/>
+        <name>Season had these teams</name>
+        <query_from/>
+        <query_with><![CDATA[current.addQuery('season', parent.sys_id);]]></query_with>
+        <reference_field>season</reference_field>
+        <related_list/>
+        <simple_reference>false</simple_reference>
+        <sys_class_name>sys_relationship</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 12:35:06</sys_created_on>
+        <sys_id>0d32bada3bf0be90e40d9dc643e45a22</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>Season had these teams</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name>sys_relationship_0d32bada3bf0be90e40d9dc643e45a22</sys_update_name>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 12:37:53</sys_updated_on>
+    </sys_relationship>
+    <sys_translated_text action="delete_multiple" query="documentkey=0d32bada3bf0be90e40d9dc643e45a22"/>
+</record_update>
