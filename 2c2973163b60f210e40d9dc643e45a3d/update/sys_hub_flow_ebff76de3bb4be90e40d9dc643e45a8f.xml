@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=2865000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Gets Teams based on input Season</description>
+        <display_name_after_preview/>
+        <flow_priority>LOW</flow_priority>
+        <generation_source/>
+        <internal_name>get_teams_for_specific_season</internal_name>
+        <label_cache>[{"name":"4eace6ca-0e2f-4c97-9523-3e3cd6a20fdc.Record","label":"3 - Look Up Record➛Teams Record","reference":"x_466181_f1now_teams","reference_display":"Teams","type":"reference","base_type":"reference","usedInstances":{"f249349d-131b-489d-a130-cbfb56214c58":["team"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0fe42f3b-dae2-4547-bb13-44bad8c46f37.item.teamId","label":"2➛teams_object➛teamId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"4eace6ca-0e2f-4c97-9523-3e3cd6a20fdc":["conditions"],"5779d03d-ee67-4689-955c-1b9b93b4dc23":["id"]},"attributes":{}},{"name":"91385c44-8629-45bb-ad9f-f9eec0856b6c.array_object","label":"1 - API Season Team➛Array Object","reference_display":"Array Object","type":"array.object","base_type":"array.object","usedInstances":{"0fe42f3b-dae2-4547-bb13-44bad8c46f37":["items"]},"attributes":{"sourceId":"99ebe6ae-1817-4121-918c-9c61a65154ad","child_name":"teams_object","uiUniqueId":"10633f41-b4f5-4ed9-a237-b3f82cd332d1","uiTypeLabel":"Array.Object","co_type_name":"FD035f7a5efcb4be903b0f1c77b2d2b8a0","child_label":"teams_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"ef1ca9b9-55a6-422f-a8e0-1f6552c30dad","uiType":"array.object","child_type":"object","child_uiUniqueId":"f091ec56-a9eb-4c26-8f2c-39b5534b8367"}},{"name":"subflow.season","label":"Input➛Season","reference":"x_466181_f1now_seasons","reference_display":"Seasons","type":"reference","base_type":"reference","column_name":"","usedInstances":{"91385c44-8629-45bb-ad9f-f9eec0856b6c":["season"],"8a17205b-f46a-46ba-801a-7a08f9e16fae":["season"],"f249349d-131b-489d-a130-cbfb56214c58":["season"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"cb5fb3b4-9d1c-4d4a-83ac-83ae4752e834","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"4eace6ca-0e2f-4c97-9523-3e3cd6a20fdc.status","label":"3 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"9b763f2c-1c0f-438c-89b1-0072c8071fdc":["condition"],"050069d9-d05d-4076-9e79-5c5c383edbfe":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"0fe42f3b-dae2-4547-bb13-44bad8c46f37.item.teamName","label":"2➛teams_object➛teamName","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"5779d03d-ee67-4689-955c-1b9b93b4dc23":["name"]},"attributes":{}},{"name":"0fe42f3b-dae2-4547-bb13-44bad8c46f37.item.teamNationality","label":"2➛teams_object➛teamNationality","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"5779d03d-ee67-4689-955c-1b9b93b4dc23":["nationality"]},"attributes":{}},{"name":"0fe42f3b-dae2-4547-bb13-44bad8c46f37.item.firstAppeareance","label":"2➛teams_object➛firstAppeareance","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"5779d03d-ee67-4689-955c-1b9b93b4dc23":["first_appeareance"]},"attributes":{}},{"name":"0fe42f3b-dae2-4547-bb13-44bad8c46f37.item.driversChampionships","label":"2➛teams_object➛driversChampionships","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"5779d03d-ee67-4689-955c-1b9b93b4dc23":["drivers_championships"]},"attributes":{}},{"name":"0fe42f3b-dae2-4547-bb13-44bad8c46f37.item.constructorsChampionships","label":"2➛teams_object➛constructorsChampionships","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"5779d03d-ee67-4689-955c-1b9b93b4dc23":["constructors_championships"]},"attributes":{}},{"name":"5779d03d-ee67-4689-955c-1b9b93b4dc23.record","label":"5 - Create Record➛Teams Record","reference":"x_466181_f1now_teams","reference_display":"Teams","type":"reference","base_type":"reference","usedInstances":{"8a17205b-f46a-46ba-801a-7a08f9e16fae":["team"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master_snapshot>7bc047d23bf4be90e40d9dc643e45a9e</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Get Teams for Specific Season</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 13:33:23</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ebff76de3bb4be90e40d9dc643e45a8f</sys_id>
+        <sys_mod_count>49</sys_mod_count>
+        <sys_name>Get Teams for Specific Season</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name>sys_hub_flow_ebff76de3bb4be90e40d9dc643e45a8f</sys_update_name>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 14:21:13</sys_updated_on>
+        <type>subflow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record display_value="Created 27/10/2025 15:21:13">10fa4f9a3b78be90e40d9dc643e45a7f</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=ebff76de3bb4be90e40d9dc643e45a8f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=ebff76de3bb4be90e40d9dc643e45a8f"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=ebff76de3bb4be90e40d9dc643e45a8f"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=ebff76de3bb4be90e40d9dc643e45a8f^sys_idNOT INafff76de3bb4be90e40d9dc643e45a90"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>ebff76de3bb4be90e40d9dc643e45a8f</id>
+        <name>Get Teams for Specific Season</name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 13:33:24</sys_created_on>
+        <sys_id>afff76de3bb4be90e40d9dc643e45a90</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 13:33:24</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=afff76de3bb4be90e40d9dc643e45a90"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=ebff76de3bb4be90e40d9dc643e45a8f^sys_idNOT INba1003123bf4be90e40d9dc643e45a1f"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=cb5fb3b4-9d1c-4d4a-83ac-83ae4752e834</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_466181_f1now_seasons</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>season</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Season</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Get Teams for Specific Season">ebff76de3bb4be90e40d9dc643e45a8f</model>
+        <model_id>ebff76de3bb4be90e40d9dc643e45a8f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_ebff76de3bb4be90e40d9dc643e45a8f</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_466181_f1now_seasons">x_466181_f1now_seasons</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 13:33:53</sys_created_on>
+        <sys_id>ba1003123bf4be90e40d9dc643e45a1f</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 13:33:53</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=ba1003123bf4be90e40d9dc643e45a1f"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=ebff76de3bb4be90e40d9dc643e45a8f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ebff76de3bb4be90e40d9dc643e45a8f"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=ebff76de3bb4be90e40d9dc643e45a8f"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=ebff76de3bb4be90e40d9dc643e45a8f^sys_idNOT IN09304f123bf4be90e40d9dc643e45a21,94604b523bf4be90e40d9dc643e45a6c,e5d2c3da3bf4be90e40d9dc643e45abf,fe46871a3b38be90e40d9dc643e45aa7,ff390bd23b78be90e40d9dc643e45ad8"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="API Season Team">325f3a5e3bb4be90e40d9dc643e45abb</action_type>
+        <action_type_parent display_value="API Season Team">41bc3e923bb4be90e40d9dc643e45a43</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Get Teams for Specific Season">ebff76de3bb4be90e40d9dc643e45a8f</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 13:34:19</sys_created_on>
+        <sys_id>09304f123bf4be90e40d9dc643e45a21</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 13:48:42</sys_updated_on>
+        <ui_id>91385c44-8629-45bb-ad9f-f9eec0856b6c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/41SW2vbMBT+L3p2TBwrbpO3QikMthXWrS+lmGPpKBHIkivJuSzkv+/IdkPoxujjuei7Hb2cmJZszRpcqhKWWDYNb3A1Rz6XKykqXiJfQqNYxiy0SJsBIThL9Q5MnxqnU+gbZdw+H0fnMw2lDp2B4/O0Qx2x1UZ6tGz98pqxDjzBRfRsffowiscOawMNGnr4AxXSRCAhfFbo+9und6UflScGqv0VtvMyaSkyhoeIViJxKTABM9aClRCdP7J19D01PIJ8tOZ42dhqG0eTLRyC/k3g5SK7wl+zQ82rqrgtalVYt69HKYFdLdVTZBfhYQjNaYGPXdQkfGCI0Jj/Agpn+tZ+Hy2nS6CC3sSrS/SByLBLLpPuyYR62rr9Je4HbYdApqFxAsylghi9bvqIIV2v1z//znNsfv3HFdFgS7x1C12n7abuvNvpgYukt/nGUJGn70Qag97YHERyn9MNIH+g/v3QfgavUxTfCIYeJ8ZfVr/1+CX9kgW/UWolcLaquJhxiXx2e1PNZ3y54KIUQN+mYOch/fqtT9bGqKZQ6jFtWgjC6y7ekYQdTv7Pr38AHkLCzjUDAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=09304f123bf4be90e40d9dc643e45a21"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment>Check if Team already exists in the F1Now Teams table</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Get Teams for Specific Season">ebff76de3bb4be90e40d9dc643e45a8f</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>0fe42f3b-dae2-4547-bb13-44bad8c46f37</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 13:35:05</sys_created_on>
+        <sys_id>94604b523bf4be90e40d9dc643e45a6c</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 13:48:42</sys_updated_on>
+        <ui_id>4eace6ca-0e2f-4c97-9523-3e3cd6a20fdc</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/9VY227bOBD9FUHPtle0ZMnO26KBgQDdBmizfckGBCWSMVGaVCkqNyP/vkNdbMf32C6aPnI4lzMzZ8aUb2e+oP6FT0fBiI9Gg2ESBGEYBHEcZgSlaRhnaZCSyO/4ikwZaFqSSgbHByJLd37CURyjIcIcKf2ILSPTAq6pKHJJnr83WjeNOJsISQ1T/sXtXcfPiQGnlhn/YrZyZZ9zhiVJmXTWLqb3xQHoHIz3jfE6fhegPWJVu9aGOixBx2dPlinKIBQnsmAdf0oUJVab57nEMEKvlVwIJkJZ8Og75adCvID7YeD0OIO0MlbfzY+4KVEtziZaZOw6t0KrWlIDrS+1LKfqS52AKy7jpJS2LS5IygL8sdxhdiAaRPzbRD9+bQOOharSay6lzoicn4i1RqSlZYXrBZNsCo7wlOS5UPc4N/pBVMaAZdq7l3DocQn9pqwQ96pHMge8ByUivTHILyvxd2KEy+IfcAPGAEhI6Daui17o0lRVecCZLIvqwhBV1L7816pW+GfpUNZZN/nhukSgUGRG5PZvMHhgTSqvnZbSg50UGS0okWlFhYtZLPFa0P9KMKSzWcBZ1Odh2qWE9bvRIEq6aYrCbhSlhA6zKOZh0hOWTXuO/Ff09XWd/yd6O25sPi3ndWhNNhpvKlQzQG9kzQChsw1QFAS/aYSsKT/eBO2biTrhPYOB6E4S0EW/C20sriu3NBnr7D6aoWPBJH2z2A8A1xpfO7J56fM2vA1BuYuxsuH7f/yG/5D0BEAU1/UWSgpV/cAC0PPwdrCTGila4UHV/gVrKxkpsnX2Es9q7+X4LVv1teXvASBbw2+AyLupUW4A3u7X1n1D3fBs1A3776MuEOd2Nkc/r9qGArfvKNe6Vv/F6ZNVfWDXkgF6vZtT/9NxMdF7Y/ZdzJXZDN81nMvMqm8utxDszK+0LcPW+ZXTPQHTJh6uhxU/CnrP7CJ6q0W1fSTyx6b7hl3zGarSO/nFh3Z+FKRLLz7B8RT6JHJ4hhqWARUKTAzDXJeK4uYBuqCN6xsXprCN8voO+cpsaZSnYeQ8O2Fepe3Ntc+xWQ7IrjW84l6bXoOh8CA9r0rPm6f3vmJs2UfRGd96p+yjMRGyKj18SORLvWPGaLNlJ+3p2o72H7iwDgSFzgrq9I22ie8bN9serH/EV+mpWydjJI36JE5ChIIABTQJhkmChnHKY5JEfDFoGBcqg7UInjkQA9zjlghtV9H6amm25pH/nIDxX+Nqu3YOhtsaX2rlvlr7ifUcXmiz1+Ldn1GzLlKtJSNqwc7Bb9sXH+XPlVLcrNamFn3e1LRf9Vtein+V+FmyK0eKIQv6Q0Sz7jBBSTfiNO6OKBl0ySgdJCFlWcSP/3m++x+qzkh9ZRQAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=94604b523bf4be90e40d9dc643e45a6c"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Get Teams for Specific Season">ebff76de3bb4be90e40d9dc643e45a8f</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>9b763f2c-1c0f-438c-89b1-0072c8071fdc</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 13:45:48</sys_created_on>
+        <sys_id>e5d2c3da3bf4be90e40d9dc643e45abf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 13:48:42</sys_updated_on>
+        <ui_id>5779d03d-ee67-4689-955c-1b9b93b4dc23</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VXW/TMBT9K5Of0yhusqzr2wSqxAObBGgvY7Mc+6a15HxgO91K1f/OdeJ2pVBpK0gIQZ/qe6/POfcjvndroiSZkpxCcn5Jc5HSNB0nyXiS0SJPCzqWKQfISERqXgFGOl5oYP0hIkuuO298Ylme0wllJa2bR+aAVxbdUtlW89VtiPoUzGKhtDRQk+ndfURabhDMgSHT9YHLrVpgmheg/W1PfHY9EL9U9HeXjyThWQ5tjZFeUBIReHJQS0C+kmsLEal4LblrzIpMnenQYIDLm1qvdhELVTsEJD72yaqviD5JfFwJmJqAwbc7slCmwSwWjRJw0zrV1IOlFxacje6q+npIwhcYSt5pty0wWjqLeNB6yV5EUFR+XDSPH7aEM1X32QWnbgTXuxN3zqiic2B9P0BDhUCs4m2r6jlrTbNU/WXUUsVzjYe41NhzCVbN65gLLzzGCvF4hva3vfmWG+WzeI8weHnTZ8++dJ53yCMoZkPSGGCFUa27QrglBHGbaDutEpLLo42nxXOj+wG1e5Oq5OcuSVK5XiclZOMyLUaSw3iUnWcXo6Kg6SjLCi4nIsvL9CJWDqrYj/M7udk8eNDTrvuW9QC+OlwrtzoVZweAcKUy1jFfU45DiJ19PWgPcfWMgKjSYMmNZWLBqxbZ7EK19vXIAebNPgqiC/yL343AL+iXKfaxDnh+fH3+d/6f6fyJCwYqnBcHZ8PERC9+a7YAMwVa2p88PtsNEwjYMhCELUN/15ahedL//syuGXT+Zatmb+sfWTr33wCCAEFTJAkAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=e5d2c3da3bf4be90e40d9dc643e45abf"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Link Team with Season">22164bd63b38be90e40d9dc643e45a62</action_type>
+        <action_type_parent display_value="Link Team with Season">eda5c7563b38be90e40d9dc643e45af0</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Get Teams for Specific Season">ebff76de3bb4be90e40d9dc643e45a8f</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>9b763f2c-1c0f-438c-89b1-0072c8071fdc</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 14:00:55</sys_created_on>
+        <sys_id>fe46871a3b38be90e40d9dc643e45aa7</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 14:21:08</sys_updated_on>
+        <ui_id>8a17205b-f46a-46ba-801a-7a08f9e16fae</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Ty27bMBD8F54tQRL19K1AEaBA2wB1mksQCHysYgIUpUiUY9fwv3cpyY+mTWH00F563F3u7Mws92FPlCRLEkGYxlymlNOcQxFAHMhCijSmECcsF2RBDKsBX1pgNUYbpgcX7vdJlhUyoNIDSDMvTvPCK5JEeCEveEF5LEVE/Q5E08nDATul6lvNdvczAGbEWmnZgSHLh8cFaVmHkyx0ZLl/VbK7FkrNOGhs/AIVYEUAIlyr4dh7N4n4UZJDx6i7wEXOjke4ILC1YCTgnIrpHhakZkYy23S7U6YDJm+NPifWythJYc22vfqG6DRaXAxYkm0Zp2mYh2UVmualdEx6cvGknN2aOfejW40ScNta1ZgJ3TKufwMmGj3U5vOk1S0AKjZoe7GAocdB0DqBjvFMv1qtm5eTyzfKjF7MRd0Ipk8Rs7ZTfLDQu6UN6u5nK6fkx18sDzTUOLesWdsq81S2XbNR4yykXvtPGgO/0qhIQq+ejM+E0+6j/cy/wfz7MX3POuWM+IQw2OwmfjXqeYAP4+dI4yiBIPREEFZenAjhFRnNvZyLgEJQ4F+tyGF0vnwenLTJqtmUcvIaH/SiU619hxQ2MOs/LK66oiI5f7keWI+Ql3fUD9yJ9KfSvzyVkeixd3Vk+pr52+cS/a1zmbi8dTCrU/XqkzkD/j8aRKryIKJhyDyeVeDFrKg8jl/Hi2ge0CLLIciSPz6ax+9j8ACefAYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=fe46871a3b38be90e40d9dc643e45aa7"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Link Team with Season">22164bd63b38be90e40d9dc643e45a62</action_type>
+        <action_type_parent display_value="Link Team with Season">eda5c7563b38be90e40d9dc643e45af0</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Get Teams for Specific Season">ebff76de3bb4be90e40d9dc643e45a8f</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id>050069d9-d05d-4076-9e79-5c5c383edbfe</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 14:13:50</sys_created_on>
+        <sys_id>ff390bd23b78be90e40d9dc643e45ad8</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 14:14:55</sys_updated_on>
+        <ui_id>f249349d-131b-489d-a130-cbfb56214c58</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1TTW/bMAz9Lzrbhr/i2LkVGAoM2Fag6XopCoOW6ESALLu2nCYL8t9H2c7HunUIdtguO5IUH997FJ/2TAq2YCEGSVyIJCqitMDMx9gXmeBJHGE8g5Qzh2mokF4ahIqiDajehvt9jMAx4eD6GJZuzLO5m83CyI0w4iKB0C8F9+6R1604HKhTyK5RsHucACjD11KJFjVbPD07rIGWJhls2WL/pmR2DeYKClTUeI8lUoUjIVyr4dj7MIr4UZJFp6i9wCXOlkfgMNwa1AJpTgmqQ4dVoAWYut2dMi2CuNPqnFhLbUaFFWw7+Y3Qo9C5GLBg2zxOkiAN8jLQ9WtumXTs4kk+uTVx7ga3asnxrjGy1iO6gUL9BozXqq/0l1GrXQCW0CtzsYC+o0HYWIGW8US/XK7r15PLt1IPXkxFVXNQpwiMaWXRG+zs0nr58LOVY/LTL5aHCiuam1fQNFKv8qatN3KYRdQrb6Uo8EpFigR2cqU94Fa7R/aDd0v5D0P6EVppjfhMMNRsJ37V8qXHj8PnSOJwhn7gcj+gXzrj3M3mUeqmBfcj9LOsyEp2GJzPX3orbbRqMiUfvaYHHW9lY26IwgYn/QfnqivKZucv1yF0BHl5R11fWJHeWPqXpzIQPfYuj0zfMn//XMK/dS4jl/cOZnmqXn0yZ8D/R0NIZeqHURCAW8xLdGPISregr+OGUepH2TxFfz7746N5/g5KM5OxfAYAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=ff390bd23b78be90e40d9dc643e45ad8"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=ebff76de3bb4be90e40d9dc643e45a8f"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=ebff76de3bb4be90e40d9dc643e45a8f^sys_idNOT IN194083523bf4be90e40d9dc643e45af3,b172875a3bf4be90e40d9dc643e45a89,c2b80b523b78be90e40d9dc643e45a77"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">67c007d23bf4be90e40d9dc643e45ada</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Get Teams for Specific Season">ebff76de3bb4be90e40d9dc643e45a8f</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 13:34:37</sys_created_on>
+        <sys_id>194083523bf4be90e40d9dc643e45af3</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 14:21:07</sys_updated_on>
+        <ui_id>0fe42f3b-dae2-4547-bb13-44bad8c46f37</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6VSTW/bMAz9Lzonhj8SI86twFCgh65AV/QyFAYt0YlWWdIkOaln+L+Pip106HUnm4/k43siR2b6YPvgX8yd9/Kg2f7n24pJHTH6H5mGDtmeyYCdZyt2AtXHeByrrNht+Waz3pV5td5sm2YNomrXbYXI0922bEqegHMw1Kb5hTxME/UL6a2C4fU/afhRKuFwkWvBkcqAju3HL6kwWKwVNKho2jNy40S0IQWFWSXaKksrXuRlkadpvttkTVk0WS4KQFFS3bXzYbH/5TUiO4XuxkufqCJPVww/AmqBNKgF5XHFOtACgnED2wfXE+AQxJNWw63iKHUgOhZrP7z8Q9xZmsbCFskRxzl5C+vlNWeYH43k+GSDNHpGAjRq6eFG9Z3+PsuPe8AWehWueyCk98SHNmqOKhZJ7Y+jOT9fB95LffG3JJXhoG4RhOBk0wf0cQ2osCOiugNrpT7U1pmTvDSTli45KAqSVpkzDY2HlwCPwhN6IkjuCf92gV/ByejikWioebq4r3/3ce7sY1Fcz6apwHMnbbgjuhMu4qa3eLkzk58PQyCXnga+ROzheu8xMdCSJf8XOhv3HqV+YtNfhka9cDkDAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">3773cb5e3bf4be90e40d9dc643e45af9</block>
+        <comment>Team does not already exist</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Get Teams for Specific Season">ebff76de3bb4be90e40d9dc643e45a8f</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>0fe42f3b-dae2-4547-bb13-44bad8c46f37</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 13:44:12</sys_created_on>
+        <sys_id>b172875a3bf4be90e40d9dc643e45a89</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 14:21:07</sys_updated_on>
+        <ui_id>9b763f2c-1c0f-438c-89b1-0072c8071fdc</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2UX2vbMBTFv0rxs2NkO8mWvJWNwmBbYS192Yq5lq4TUVnyJDlpFvLdd+U/aWhTNsoe9xadK917zvWP7CPT+qb17tZcOidXOlp+v48jqYNGv/eRhhqjZcSNFtJLo4tOiKMNqDYUlDEPbXNRgVSOZCFdo2B3d77K11IJi8OUBiz18mij5f5Zye8aLBSUqKjJjbdSr+i5FHSqGFTpgqc8z+Z5xlj2fpqW87xMM5EDQk73xocfRtMXnzslfjVNmEe6GycZK4KtlMURPnrUAml0BcphHNWgBXhjd0fFIohrrZ6EtdSe2kXh8qOTv6h3NpuFixVSRo598XgshrX1Ml8byfG6CQZ7xUOphjfcqLbWX/scYeFYQav8uHBSWkf9sAmmg4vBUnWzNttv48ArqbuAQ1EZDup4Ak9rKFuPLnwYVFhTo6KGpqHlFI01G9k9Ji91slJ0SCpltjQ0EJQAD8YT2hEkV6R/7OQ7sDKk+EJt6HFvswQnedHRRu28pQiHbi3FzzYY6gMOUYp+G3TBcSsbf0lzNji4PsQvUT2hdL+fInCcc5gwzKrJlC/eTRazLJ/kmHMxh4xVgifOg2/d4fCjZSwX6Uue39znX5C/gFk1S9nsPPnT+TnyzzD/Ou7ZH3APH+gvaWeM/cf9FHfpih7bIVs3/M203we0+wmu50Ygl46M3Abt0/j/HQo7AkDyU2lr7EOI8KQdfgMaSFJRCQYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">be5947163b78be90e40d9dc643e45a55</block>
+        <comment>We have this team in the F1Now Team table already</comment>
+        <connected_to>9b763f2c-1c0f-438c-89b1-0072c8071fdc</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Get Teams for Specific Season">ebff76de3bb4be90e40d9dc643e45a8f</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id>0fe42f3b-dae2-4547-bb13-44bad8c46f37</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 14:11:31</sys_created_on>
+        <sys_id>c2b80b523b78be90e40d9dc643e45a77</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 14:21:08</sys_updated_on>
+        <ui_id>050069d9-d05d-4076-9e79-5c5c383edbfe</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Uy27bMBD8lUBnWaAk2619C1oEKNA2QBPk0gbCilzZRChSJSk7ruF/71IPx0hitMihp97M2cfMrAbeR6b1Tevdrbl0Tq50tPx+H0dSB4x+7yMNNUbLiBstpJdGFx0QRxtQbSgoYx7a5sK1nCMKRxUhXaNgd3e2ga+lEhYHrgYsbfRoo+X+WcnvGiwUlKhoz423Uq9oXAp6VQyqdMFTnmfzPGMsez9Ny3leppnIASGjvnHwwyj94nOHxGc9BT7C3chkrAiyUhZH+OhRCyTqCpTDOKpBC/DG7o6IRRDXWj0Ba6k9rYtC86OTv2h3NpuFxgrJI8e+eHwWw+V6mK+N5HjdBIE94qFUwww3qq31195HuDlW0Co/3pyQ1tE+bILooGKQVN2szfbbSHgldWdwKCrDQR1f4OkMZevRhQ+DCmtaVNTQNHScorFmI7th0lInK0WPpFJmS6QhRwnwIDyhG0FyRfjHDr4DK4OLL7SGhnuZJTjJiy5ztM5bsnDozlL8bIOg3uBgpeivQQ2OW9n4S+LZ4KD6EL8M7ElW9/spAsc5hwnDrJpM+eLdZDHL8kmOORdzyFgleOI8+NYdDj9axnLBXkb6zXv+QfLT15L/SubPxz37Q9zDB/rLtDPG/sf9NO7SFX1sB28d+ZvTfh+i3TO4PjcCuXQk5DZgn8Z/8VDYUQAkP4W2xj4EC0/Y4Te49v25DwYAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=ebff76de3bb4be90e40d9dc643e45a8f"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=ebff76de3bb4be90e40d9dc643e45a8f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>season</element>
+        <help/>
+        <hint/>
+        <label>Season</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_ebff76de3bb4be90e40d9dc643e45a8f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 13:33:53</sys_created_on>
+        <sys_id>7210c7123bf4be90e40d9dc643e45a32</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 13:33:53</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_ebff76de3bb4be90e40d9dc643e45a8f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_ebff76de3bb4be90e40d9dc643e45a8f"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Gets Teams based on input Season</description>
+        <flow_priority>LOW</flow_priority>
+        <internal_name>get_teams_for_specific_season</internal_name>
+        <label_cache>[{"name":"4eace6ca-0e2f-4c97-9523-3e3cd6a20fdc.Record","label":"3 - Look Up Record➛Teams Record","reference":"x_466181_f1now_teams","reference_display":"Teams","type":"reference","base_type":"reference","usedInstances":{"f249349d-131b-489d-a130-cbfb56214c58":["team"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}},{"name":"0fe42f3b-dae2-4547-bb13-44bad8c46f37.item.teamId","label":"2➛teams_object➛teamId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"4eace6ca-0e2f-4c97-9523-3e3cd6a20fdc":["conditions"],"5779d03d-ee67-4689-955c-1b9b93b4dc23":["id"]},"attributes":{}},{"name":"91385c44-8629-45bb-ad9f-f9eec0856b6c.array_object","label":"1 - API Season Team➛Array Object","reference_display":"Array Object","type":"array.object","base_type":"array.object","usedInstances":{"0fe42f3b-dae2-4547-bb13-44bad8c46f37":["items"]},"attributes":{"sourceId":"99ebe6ae-1817-4121-918c-9c61a65154ad","child_name":"teams_object","uiUniqueId":"10633f41-b4f5-4ed9-a237-b3f82cd332d1","uiTypeLabel":"Array.Object","co_type_name":"FD035f7a5efcb4be903b0f1c77b2d2b8a0","child_label":"teams_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"ef1ca9b9-55a6-422f-a8e0-1f6552c30dad","uiType":"array.object","child_type":"object","child_uiUniqueId":"f091ec56-a9eb-4c26-8f2c-39b5534b8367"}},{"name":"subflow.season","label":"Input➛Season","reference":"x_466181_f1now_seasons","reference_display":"Seasons","type":"reference","base_type":"reference","column_name":"","usedInstances":{"91385c44-8629-45bb-ad9f-f9eec0856b6c":["season"],"8a17205b-f46a-46ba-801a-7a08f9e16fae":["season"],"f249349d-131b-489d-a130-cbfb56214c58":["season"]},"attributes":{"uiType":"reference","uiTypeLabel":"Reference","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"cb5fb3b4-9d1c-4d4a-83ac-83ae4752e834","sourceUiUniqueId":"","sourceType":"","sourceId":""}},{"name":"4eace6ca-0e2f-4c97-9523-3e3cd6a20fdc.status","label":"3 - Look Up Record➛Status","reference_display":"Status","type":"choice","base_type":"choice","choices":[{"label":"Error","value":"1","order":0.0},{"label":"Success","value":"0","order":1.0}],"usedInstances":{"9b763f2c-1c0f-438c-89b1-0072c8071fdc":["condition"],"050069d9-d05d-4076-9e79-5c5c383edbfe":["condition"]},"attributes":{"uiType":"choice","uiTypeLabel":"Choice","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","uiUniqueId":"5e478657-3a84-4a60-a92b-d3e80005ad34"}},{"name":"0fe42f3b-dae2-4547-bb13-44bad8c46f37.item.teamName","label":"2➛teams_object➛teamName","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"5779d03d-ee67-4689-955c-1b9b93b4dc23":["name"]},"attributes":{}},{"name":"0fe42f3b-dae2-4547-bb13-44bad8c46f37.item.teamNationality","label":"2➛teams_object➛teamNationality","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"5779d03d-ee67-4689-955c-1b9b93b4dc23":["nationality"]},"attributes":{}},{"name":"0fe42f3b-dae2-4547-bb13-44bad8c46f37.item.firstAppeareance","label":"2➛teams_object➛firstAppeareance","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"5779d03d-ee67-4689-955c-1b9b93b4dc23":["first_appeareance"]},"attributes":{}},{"name":"0fe42f3b-dae2-4547-bb13-44bad8c46f37.item.driversChampionships","label":"2➛teams_object➛driversChampionships","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"5779d03d-ee67-4689-955c-1b9b93b4dc23":["drivers_championships"]},"attributes":{}},{"name":"0fe42f3b-dae2-4547-bb13-44bad8c46f37.item.constructorsChampionships","label":"2➛teams_object➛constructorsChampionships","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"5779d03d-ee67-4689-955c-1b9b93b4dc23":["constructors_championships"]},"attributes":{}},{"name":"5779d03d-ee67-4689-955c-1b9b93b4dc23.record","label":"5 - Create Record➛Teams Record","reference":"x_466181_f1now_teams","reference_display":"Teams","type":"reference","base_type":"reference","usedInstances":{"8a17205b-f46a-46ba-801a-7a08f9e16fae":["team"]},"attributes":{"element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper"}}]</label_cache>
+        <master>true</master>
+        <name>Get Teams for Specific Season</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Get Teams for Specific Season">ebff76de3bb4be90e40d9dc643e45a8f</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 13:36:58</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7bc047d23bf4be90e40d9dc643e45a9e</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 14:21:10</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=7bc047d23bf4be90e40d9dc643e45a9e"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7bc047d23bf4be90e40d9dc643e45a9e"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=7bc047d23bf4be90e40d9dc643e45a9e"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=7bc047d23bf4be90e40d9dc643e45a9e^sys_idNOT INbfc047d23bf4be90e40d9dc643e45a9f"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>7bc047d23bf4be90e40d9dc643e45a9e</id>
+        <name>Get Teams for Specific Season</name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 13:36:58</sys_created_on>
+        <sys_id>bfc047d23bf4be90e40d9dc643e45a9f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 13:36:58</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=bfc047d23bf4be90e40d9dc643e45a9f"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=7bc047d23bf4be90e40d9dc643e45a9e^sys_idNOT IN84d047d23bf4be90e40d9dc643e45aa1"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=reference,uiTypeLabel=Reference,uiUniqueId=cb5fb3b4-9d1c-4d4a-83ac-83ae4752e834</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table>x_466181_f1now_seasons</choice_table>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>season</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="Reference">reference</internal_type>
+        <label>Season</label>
+        <mandatory>true</mandatory>
+        <max_length>32</max_length>
+        <model display_value="Get Teams for Specific Season">7bc047d23bf4be90e40d9dc643e45a9e</model>
+        <model_id>7bc047d23bf4be90e40d9dc643e45a9e</model_id>
+        <model_table>sys_hub_flow_snapshot</model_table>
+        <name>var__m_sys_hub_flow_input_7bc047d23bf4be90e40d9dc643e45a9e</name>
+        <next_element/>
+        <order>1</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference display_value="" name="x_466181_f1now_seasons">x_466181_f1now_seasons</reference>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 13:36:58</sys_created_on>
+        <sys_id>84d047d23bf4be90e40d9dc643e45aa1</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 13:36:58</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=84d047d23bf4be90e40d9dc643e45aa1"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=7bc047d23bf4be90e40d9dc643e45a9e"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7bc047d23bf4be90e40d9dc643e45a9e"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=7bc047d23bf4be90e40d9dc643e45a9e"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=7bc047d23bf4be90e40d9dc643e45a9e^sys_idNOT IN48d047d23bf4be90e40d9dc643e45ac2,48d047d23bf4be90e40d9dc643e45ac4,535987163b78be90e40d9dc643e45a75,6e66035a3b38be90e40d9dc643e45a01,90830f5e3bf4be90e40d9dc643e45ac7"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="API Season Team">325f3a5e3bb4be90e40d9dc643e45abb</action_type>
+        <action_type_parent display_value="API Season Team">41bc3e923bb4be90e40d9dc643e45a43</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>325f3a5e3bb4be90e40d9dc643e45abb</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Get Teams for Specific Season">7bc047d23bf4be90e40d9dc643e45a9e</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 13:36:59</sys_created_on>
+        <sys_id>48d047d23bf4be90e40d9dc643e45ac2</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 13:36:59</sys_updated_on>
+        <ui_id>91385c44-8629-45bb-ad9f-f9eec0856b6c</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/42S24rbMBCG30XXjokTJbvJXdklUGi70LR7syxmLI0SgSx7dcihJu/eUeymZltKL/XP6Z9v9NIxLdmaVbhQc1jgvKp4hasp8qlcSbHkc+QLqBTLmIUaKdMj+MbS+wAmJqHrfKyUaY55H7pcKCi1bw2cn4ccUsReG+nQsvXLa8ZacNQuoGPr7l3of/0YqNBQ6vaXofcGw7lNb4cKqbnAQfo01H0d6Y2TyUqRMTwFtBLJgwLjMWM1WAmhcWe2Di6S4BDkkzXnW8Ze29DvWMPJ6x80dD7LRnPX7FTy5bK4L0pV2OZY9hY9GyWVA7HbQimqHiHAlsaKEN2NY6MF+p6VRAXRhIex1ic8tUEThWtJgMr804VoTKztl54fu7UdXS96cohtQpOWHTZX231zvHHcaHulOARNI8CMUhGc2G80mnTf660yBiE4XcWQvHcs6m9/nqwX/3Y0NFiTm7KGttV2V7auOeirA1qozneGHnn6mOTc653NQSQmOZ0T8g3pj1f5GZxOgD5TGypOE79b/RbxYzI643dKrQROVksuJlwin9zfLacTvphxMRdAP7Ngl4z5s38w4P1viLRE+RYTgh7pAK/sr5JKhNNt+ECmDjhwurz+BHPHAO+RAwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=48d047d23bf4be90e40d9dc643e45ac2"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
+        <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
+        <attributes/>
+        <comment>Check if Team already exists in the F1Now Teams table</comment>
+        <compiled_snapshot>9d09f99587003300663ca1bb36cb0ba3</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Get Teams for Specific Season">7bc047d23bf4be90e40d9dc643e45a9e</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>0fe42f3b-dae2-4547-bb13-44bad8c46f37</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 13:36:59</sys_created_on>
+        <sys_id>48d047d23bf4be90e40d9dc643e45ac4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 13:48:45</sys_updated_on>
+        <ui_id>4eace6ca-0e2f-4c97-9523-3e3cd6a20fdc</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+VYUW/iOBD+K1GegUtIINC3UyukSntbadvbl72V5cR2sc44WdtpSxH//cZxEhBQIFoqtbpHj8fjb2a+b2L4sfI58a98Mg2mbDodTZIgiKIgGI+jDIdpGo2zNEhx7Pd8iRcUPA1OBYXlExalXb+geDwOJyFiocyfkaF4oWGbcF0IvPxeez3U5mzOBVFU+lc/fvb8AisIaqjyr1Y7W+eiEjilwl5Qw9pBaZZFu0TVnrN92T7mfXUbuSIWStDz6YuhklDAwLDQtOcvsCTY5GrZWhTF5E6KjWHOpYGIvnV+0fwV7p0E1o9RyCqjbq9dorpCzsxusMH3RpWZKVXtms1znlHt6kEow6Uw19s253BXGJ5Ld8Sl7U7nolzIr64cfhugaQhYSg0gaGETtcjrNNj9PH/+1qCccVnVpN4UeYZFu8LGKJ6WxuJZ+VTQBQRCC1wUXD6iQuVPvDoMWBaDRwGLARPAEUI1f5QDnFngA6grHszAflOZv2PFbRZ/QRg4DIC4AIYg10Kdl6oq5RPKRKmrDYWldrH8dc/XS30tsNabzKHk6Fdpcbs61BkjVzR7JFO8MH9CiCdaJ7fuNcIYHaXgdEO5LJeEWxR6Sx2c/FPCQbJaBYzGQxalfYLpsB+P4qSfpmHUj+MUk0kWj1mUDLihi4GV0C1Zr/dV9JvROorvdOaN+K63Uz9UjlqGe7YvhwLUMgwvJsM4CD6TEOHyj6fD7spyJTghr5AcJRnZ8EnnyiBXyy197WukM8/PgNDw/M4y00uXb6Gqac44FeTQ12ZmN3a+NsP/59fmQ5IcABHkusel4LJ6OgDQ92L/6Cj10nCHZxW9NtyvbFhn+xrAnsm9185KOANOo4R7uNt7cHgOQGzmfUWZ3VnfGGsBRBcTQDS8jABWbZptIQ/UvHkt2m42/q/WH+/6AwW3DoTrQwLrdGfY9c7hel/AUScFb5PN7dy8wbkLPyvfUGTvPUfAHI7W9yGnX/TMySM1m9sbL5KbZyz+PbRfMw41jarSe4cnanj0V1K69UTlDC2gc7yAl7SiGZBDI6woYnkpCarf0Bsi2U4yrrSpnfcHzTcK+pFeDsL0zJx6lbfXenf8EJ/OoynlLfOaROrbtAeJeFUiXptIt7S7DK34go/TSw+tGeai6gb8PCq22kmVytUbg+tEI48w4sypdiao8KKgfn/sHZLAwfF3Auun+K19+dGUUZzGQzxOojAMgjAgSTBJknAyTtkYJzHbaBQhLTOYphCZAVUgPGqo0fQ53J8/9bDtNmfOANUw8CaX9hf3MDGeRQXt9RpUp3HX8yTNc0Gx3BkoD4D8j1n1RWjpOvpwQ+VT/PFU8ofdSjvTwVq/17Oh5H9L/qukt5ZiExoMJyHJ+pMkTPoxI+P+lOBRH0/TURIRmsXski+Bn/8BDox/CMcVAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=48d047d23bf4be90e40d9dc643e45ac4"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Link Team with Season">22164bd63b38be90e40d9dc643e45a62</action_type>
+        <action_type_parent display_value="Link Team with Season">eda5c7563b38be90e40d9dc643e45af0</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>22164bd63b38be90e40d9dc643e45a62</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Get Teams for Specific Season">7bc047d23bf4be90e40d9dc643e45a9e</flow>
+        <generation_source/>
+        <order>8</order>
+        <parent_ui_id>050069d9-d05d-4076-9e79-5c5c383edbfe</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 14:14:20</sys_created_on>
+        <sys_id>535987163b78be90e40d9dc643e45a75</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 14:14:20</sys_updated_on>
+        <ui_id>f249349d-131b-489d-a130-cbfb56214c58</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Ty27bMBD8F54lQS/Lkm9FAgMF2gaI01yCQFiRK5sARSkk5cQ1/O8lLcVW06ZIgTanHjn7mp3l3O0JZ2RBYoyytGJZUiV5hUWIacgKRrM0wXQGOSUekdCgzTQIjX1tQfTuud+nCBQzCn6Ice2ntJj7xSxO/AQTyjKIw5rR4Bppq9jhYCsZ152A3e3YwCJ0wwVTKMni7t4jHSg7yaAii/2L0FupCqhQ2NSbgeuPzM2ucy+FNdrGFEfo01hzPcEtZUcj8gg+GZQM7fwahEaPNCAZmFbtTohCYFdSnIENl2ZYsIEnzb/ZqUnsTQYvyFOZZlmUR2UdyfaxdAw1maSUo1jjLi5WX4KBlVE9Nb06CdhyinoQiWENvTAXU2xIuOoMb+VQYqASv2FAW9E38ssgHDk1nRyt15Yddk4Vt+a4c73atI8nCZdcHgUcg6KlICapCIpulhyFO+vxSB4BYxSveuOY70nPb36+1gD+6l4osLFsyga6jst12al2y48M7EJNsBb2EdTC7slQ87UMgDpFAntJCJYWvzzCt6C4k+ezbWOL3cSvkj/0+PH4/7I0nmEY+TSM7H+fUeoX8yT384qGCYZFURU1OXhE7/SFAK3PItolyofeSTBIOopXDjdxJVTxznywpLY46nTw3uTQYnb+5xpB25ZTj+q+cmsHQ+gdbHjk82zD1TOhlwT/3Irxe1lx4PiaGVen6L+145nFf0O+asg6D+MkisCv5jX6KRS1X9nf6cdJHibFPMdwPvuLhrz/DuL36bc0BwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=535987163b78be90e40d9dc643e45a75"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Link Team with Season">22164bd63b38be90e40d9dc643e45a62</action_type>
+        <action_type_parent display_value="Link Team with Season">eda5c7563b38be90e40d9dc643e45af0</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>22164bd63b38be90e40d9dc643e45a62</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Get Teams for Specific Season">7bc047d23bf4be90e40d9dc643e45a9e</flow>
+        <generation_source/>
+        <order>6</order>
+        <parent_ui_id>9b763f2c-1c0f-438c-89b1-0072c8071fdc</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 14:01:27</sys_created_on>
+        <sys_id>6e66035a3b38be90e40d9dc643e45a01</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 14:21:10</sys_updated_on>
+        <ui_id>8a17205b-f46a-46ba-801a-7a08f9e16fae</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1TyW7bMBD9F54lQfviW5EgQIG2Aeo0l6AQhuQoJkAtIakkruF/L2kptpo2RQq0OfXIN9ubN3w3OyI4WZEYozylPE9oUlKsQkxDXnGWpwmmGZSMeKSDFm2mQWjt6x7k6J67XVYUFQ8T7iPmhZ/mZeVXWcb8iFa0SmjKWZwEClmv+H5vK7nQg4Tt9dzAImwjJFfYkdXNV48MoOwkg4qsds9Cr6UqgaK0qVcT1x+Zm+3gXgobtI0ZztCHuebzAreUHY3II/hosONo5zcgNXqkhY6D6dX2iCgEftnJE7ARnZkWbOFRi292ahJ7i8Er8lineR6VUd1EXf9QO4aaLFLqWax5FxdrzsHA2qiRmVEdBewFQz2JxLGBUZqzJTYlXA5G9N1UYoDK3zBgvRzb7tMkHDk2XRxt1JYdDk4Vt+a8c7Pe9A9HCS9EdxBwDsqegVykIii2uRAo3VkPR/IIGKMEHY1jviOjuPr5WhP4q3uhxNayqVsYBtHd1oPq78WBgV2oDW6lfQSNtHty1OK2C4A5RQJ7SQguLH5+gK9BCSfPR9vGFruJXzpxN+L7w//L0zjDMPJZGDV+mjHmV0VS+iVlYYJhZX99Q/Ye0Vt9JkHrk4h2ifpudBJMks7i1dNNXAlTYjDvLKl7nHXae69yaJWd/rlG0Lbl0qN6pG7tYAq9gQ0PfJ5suH4i9Jzgn1sxfisrThxfMuP6GP23djyx+G/IFw3ZlGGcRBH4tGjQT6FqfGp/px8nZZhURYlhkf1FQ379DsadGr40BwAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6e66035a3b38be90e40d9dc643e45a01"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
+        <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>2de05916c31332002841b63b12d3aee1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Get Teams for Specific Season">7bc047d23bf4be90e40d9dc643e45a9e</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id>9b763f2c-1c0f-438c-89b1-0072c8071fdc</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 13:48:44</sys_created_on>
+        <sys_id>90830f5e3bf4be90e40d9dc643e45ac7</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 13:48:44</sys_updated_on>
+        <ui_id>5779d03d-ee67-4689-955c-1b9b93b4dc23</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1WTU/bQBD9K2jPjmXHxoTcEAipUgtSqbhQsMbecbzS+qO7a4gb5b931t4Ei4JaaC+ozSk7H2/evJ3s5GbDBGdLloQYHB6HSR6FUTQPgvkiDrMkysI5jwAxZh6roUKKNJBJTIeDx+5Bdta4TuMkCRdhWoR185AahEqTmwvdSuivXdQXZ85LIbnCmi1vbj3WgiIwg4otN09cv0tNQobSFrDcXqBq+vZZ28dp7sHF6GgUt3wCj+HaYM2RiBQgNXqsgpqDaVTPlkZ1ZFAI/LKW/T6iFLUhQGZj11p8p7KLwMYVSJ3lOPr2x9SpNJqLMzBwRci56ZQLzctG5KhHTTgW0ElzOrWNAZetEU09pgxtuuxGdlV9MUrC9gC7SyFLp4kEtrZPy9y1UVyVzcPnHctzUQ+SOKdscpD7ExijRNYZy2fDUGJFQGkFbSvqVdqq5l4MycSl8leSDn4haU44arGqfcgtcZ9kBf+c7GeD+RqUsF18IhhK3npM9/pUgtaPvZCI6bfOMhk7cz2koww2JVeiNSdU4B4d3a23m3mOwfGLgxVmj4M0jLmezLvgX7sgiPhmExQYz4som3HA+Sw+jI9mWRZGszjOgC/yOCmiI18YrHz7o/jAt9s7C/q2dNv4AGD1AilM/1acPQDBFUJpk1qVgWaZ7vr1oAPEySMCoXJFkiud5iVULVXTpWj165EdzOkUhdBz+jr8SJo/LzHFelLn5zfs/83/Mzf/yjX169dkt6bOBUqun3ledjsKKxo5g+n43DzZU855cO2cbleFf2tXhUkwfN7Rxhqbe/cLa/Lf5IXVdfsDcCO1nLAJAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=90830f5e3bf4be90e40d9dc643e45ac7"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=7bc047d23bf4be90e40d9dc643e45a9e"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=7bc047d23bf4be90e40d9dc643e45a9e^sys_idNOT IN00d047d23bf4be90e40d9dc643e45ac0,18830f5e3bf4be90e40d9dc643e45acc,6f5987163b78be90e40d9dc643e45a96"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">67c007d23bf4be90e40d9dc643e45ada</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Get Teams for Specific Season">7bc047d23bf4be90e40d9dc643e45a9e</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 13:36:58</sys_created_on>
+        <sys_id>00d047d23bf4be90e40d9dc643e45ac0</sys_id>
+        <sys_mod_count>12</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 14:21:10</sys_updated_on>
+        <ui_id>0fe42f3b-dae2-4547-bb13-44bad8c46f37</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6VTwW6jMBD9F58JApKgkFvVqlKl3a3UVr2sKjTYQ+JdY7O2Scoi/n3HgdCq1z3BPM+8ee9hBmY633bevZgb5+RBs/3Pt4hJHTB6H5iGBtmeSY+NYxE7gepCPQxFut5t+Waz2uVZsdpsq2oFoqhXdYHIk902r3Ieg7XQl6b6hdyPI80L6VoF/et/0vCjVMLiLLcFSyo9WrYfvhxJQVvSQtRFmhR8neXrLEmy3Sat8nWVZmINKHIiVFChotaH2ecX275vQ2mRGyuuwLd55mlB6RFEZEnE8N2jFkjra1AOI9aAFuCN7dne244AiyAeteqXjqPUnuhY6H138i9tTJMkNNZIhjhOh0tZzmFOcH0HHp6JmvvOzq38aCRHN0UhsIZO+dvP2NTw2Hpp9DTioVLXaaO6Rv+YkmALwfXbEdI5EoFtMBqkzz7q56M5P11V3kt9CWU+VIaDWirw3sqq80HPwFBhQ0RlA20r9aFsrTnJyzBpaeKDoiKulTnT0nBZY+BBeEy5QnxP+N0FfgUrg4vvREPDY8Rc724VOPfhhUIs/3RByeRs9lBOMYQRbmXrb2jBCWe541u4/xP3kimXjiS8BOzh+teEg55ukOSfobOxv4P4D2z8B32UmsF/AwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">3773cb5e3bf4be90e40d9dc643e45af9</block>
+        <comment>Team does not already exist</comment>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Get Teams for Specific Season">7bc047d23bf4be90e40d9dc643e45a9e</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>4</order>
+        <outputs_assigned/>
+        <parent_ui_id>0fe42f3b-dae2-4547-bb13-44bad8c46f37</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 13:48:44</sys_created_on>
+        <sys_id>18830f5e3bf4be90e40d9dc643e45acc</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 14:21:10</sys_updated_on>
+        <ui_id>9b763f2c-1c0f-438c-89b1-0072c8071fdc</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VyW7bMBD9lYBnWdBiubVvgYMABdIGaIJc2kAYcbGJUKIqknZcwf/eoRbbSFy0aXvszXyzvXmaB7dEO1s7a+71pTFyVZHFl8eAyMpj+LslFZScLAjVFZNW6irvgIBsQDkfUFo/ufpCgFQGYSZNrWD3cD5K11Kxhg9Tamiwl+UNWbQvQpJhsYhAxHMa0zSZpUkUJe+ncTFLizhhKXBIsaGCgitMXY70Lm46JPgpb7urPW5sI6vV8L4ZutyNoG6YZxVHAeHPlleMIx8ByvCAlFAxsLrZHZCGA7ut1BFYy8piO+KTn438jgOTLPOJguOKlPfBwzMfVOthcQUWkIqj1jVDKl1rSbnpxWFcgFN2eYr1Cbe1X7UvsVCosVorV1afekXIocH4kRBxBknw2m/qqQ97iLu13n4eWV7LqlNlCCpNQR1eYFG7wlnPpyVc8RIb5SXUNSqa143eyK4YuZThSuEjFEpvcai/uhCoJx6isBBeI37VwQ/QSL/FR2yDxT3NAoykeXeh2A5l4mQfELMzSwXGHJdEdfNvzlPsVx6Wy3t9fAltZG0vcfKGD3vsg9cHf3LrbTvlQPmMwiTiiZhM6fzdZJ4l6STlKWUzSCLBaGgsWGf2+68uilIWv3bFH/d5m3/mkIksjrLz/pnOzvnnjHPeaJrkF6bxX+w3PRNF0X/T/LVppMn7Ux9264b/Q888eoP0Mw9aU2mQ2r3HPoz/JT6ww+OS9BTa6ubJL3XE9j8ATHk1/5UGAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">be5947163b78be90e40d9dc643e45a55</block>
+        <comment>We have this team in the F1Now Team table already</comment>
+        <connected_to>9b763f2c-1c0f-438c-89b1-0072c8071fdc</connected_to>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Get Teams for Specific Season">7bc047d23bf4be90e40d9dc643e45a9e</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="Else If">666e5545c3e232002841b63b12d3ae99</logic_definition>
+        <order>7</order>
+        <outputs_assigned/>
+        <parent_ui_id>0fe42f3b-dae2-4547-bb13-44bad8c46f37</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 14:14:21</sys_created_on>
+        <sys_id>6f5987163b78be90e40d9dc643e45a96</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 14:21:10</sys_updated_on>
+        <ui_id>050069d9-d05d-4076-9e79-5c5c383edbfe</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VyW7bMBD9lYBnWdBiu41vgYMABdIGaIJc2kAYkSObCCWqImnHFfzvHWqxjSZBtxx7M99s7z3NwC3TztbOmjt9YYxcVWzx5SFgsvIY/W5ZBSWyBeO6EtJKXWUdELANKOcDSutHV58ZxzmiMBQR0tQKdvevJvC1VKLBYVYNDXW02LBF+1NICqovIijicx7zNJmnSRQl76dxPk/zOBEpICTUUEGOilKXI8mz6w4JXmVvd7XHjW1ktRre10OX2xHUjfCs4ihg+GSxEkh8ClAGA1ZCJcDqZndAGgRxU6kjsJaVpXbMJz8Z+Z0GJrOZTyyQJHLsg4dnNhjXw8UlWCAqjlvXDKl8rSVH05sjsACn7PIU6xNuai+1L7GQq7FaK1dWn3pH2KHB+J0IcYZIYO2VeuqDjuJ2rbefR5ZXsupcGYJKc1CHF1jyLnfW82kZKiypUVZCXZOjWd3ojeyKiUsZrhQ9wkLpLQ31uxcC98RDMhbCK8IvO/geGulVfKQ2VNzTzMFInnV7Su3IJmT7gJmdWSow5iiS3M2+OU+xlzyIy3p/fAlvZG0vaPIGBx374Pnan2x8204ROM45TCJMismUn7+bnM+SdJJiysUckqgQPDQWrDP7/VcXRamInh/GX/d50/uJX7qfFy7nD48m+cXR+C/2mzcTRdH/o/nno5Em61d90NYNf8ObefAH0s88eM2lIWp3Hvsw/qP4wI6WS/JTaKubRy/qiO1/AJq/q1qbBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7bc047d23bf4be90e40d9dc643e45a9e"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=7bc047d23bf4be90e40d9dc643e45a9e"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>season</element>
+        <help/>
+        <hint/>
+        <label>Season</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7bc047d23bf4be90e40d9dc643e45a9e</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 13:36:58</sys_created_on>
+        <sys_id>4cd047d23bf4be90e40d9dc643e45ab4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 13:36:58</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7bc047d23bf4be90e40d9dc643e45a9e"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_7bc047d23bf4be90e40d9dc643e45a9e"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>ebff76de3bb4be90e40d9dc643e45a8f</sys_id>
+        <latest_snapshot>7bc047d23bf4be90e40d9dc643e45a9e</latest_snapshot>
+        <compiler_build/>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=ebff76de3bb4be90e40d9dc643e45a8f"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=ebff76de3bb4be90e40d9dc643e45a8f^sys_idNOT IN10d087d23bf4be90e40d9dc643e45a29"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@198ea1b5</plan>
+        <plan_id display_value="Get Teams for Specific Season">ebff76de3bb4be90e40d9dc643e45a8f</plan_id>
+        <snapshot>7bc047d23bf4be90e40d9dc643e45a9e</snapshot>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-27 13:36:59</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>10d087d23bf4be90e40d9dc643e45a29</sys_id>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-27 14:21:12</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>
