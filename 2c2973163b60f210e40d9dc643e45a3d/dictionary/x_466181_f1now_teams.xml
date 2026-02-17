@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="25935a963b3c7e90e40d9dc643e45aa3" label="Teams" max_length="40" name="x_466181_f1now_teams" type="collection">
-        <element label="First Appeareance" max_length="40" name="first_appeareance" type="string"/>
-        <element label="ID" max_length="40" name="id" type="string"/>
-        <element label="Constructors Championships" max_length="40" name="constructors_championships" type="integer"/>
         <element label="Nationality" max_length="40" name="nationality" type="string"/>
+        <element label="First Appeareance" max_length="40" name="first_appeareance" type="string"/>
         <element label="Name" max_length="40" name="name" type="string"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
         <element label="Drivers Championships" max_length="40" name="drivers_championships" type="string"/>
+        <element label="Constructors Championships" max_length="40" name="constructors_championships" type="integer"/>
     </element>
 </database>

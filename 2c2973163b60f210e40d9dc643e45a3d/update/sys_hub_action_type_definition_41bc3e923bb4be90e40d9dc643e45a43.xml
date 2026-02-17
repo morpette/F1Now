@@ -31,15 +31,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>41bc3e923bb4be90e40d9dc643e45a43</sys_id>
-        <sys_mod_count>18</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>API Season Team</sys_name>
         <sys_overrides/>
         <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
         <sys_policy/>
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_41bc3e923bb4be90e40d9dc643e45a43</sys_update_name>
-        <sys_updated_by>morten.pettersen</sys_updated_by>
-        <sys_updated_on>2025-10-27 14:53:36</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-12 02:38:38</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -623,11 +623,11 @@
         <sys_created_on>2025-10-27 13:27:35</sys_created_on>
         <sys_id>62ae3e9a3bb4be90e40d9dc643e45a31</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>root</sys_name>
         <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
         <sys_policy/>
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_e2ae3e9a3bb4be90e40d9dc643e45a23_root_en</sys_update_name>
         <sys_updated_by>morten.pettersen</sys_updated_by>
         <sys_updated_on>2025-10-27 13:27:35</sys_updated_on>
         <url/>
@@ -1146,11 +1146,11 @@
         <sys_created_on>2025-10-27 13:19:41</sys_created_on>
         <sys_id>3edc7ad23bb4be90e40d9dc643e45a8a</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Season</sys_name>
         <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
         <sys_policy/>
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_41bc3e923bb4be90e40d9dc643e45a43_season_en</sys_update_name>
         <sys_updated_by>morten.pettersen</sys_updated_by>
         <sys_updated_on>2025-10-27 13:19:41</sys_updated_on>
         <url/>
@@ -1169,11 +1169,11 @@
         <sys_created_on>2025-10-27 14:53:26</sys_created_on>
         <sys_id>c0521bd63bf8be90e40d9dc643e45aad</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>resource_path</sys_name>
         <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
         <sys_policy/>
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_41bc3e923bb4be90e40d9dc643e45a43_resource_path_en</sys_update_name>
         <sys_updated_by>morten.pettersen</sys_updated_by>
         <sys_updated_on>2025-10-27 14:53:26</sys_updated_on>
         <url/>
@@ -1193,11 +1193,11 @@
         <sys_created_on>2025-10-27 13:19:41</sys_created_on>
         <sys_id>7adc7ad23bb4be90e40d9dc643e45add</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
         <sys_policy/>
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_41bc3e923bb4be90e40d9dc643e45a43___action_status___en</sys_update_name>
         <sys_updated_by>morten.pettersen</sys_updated_by>
         <sys_updated_on>2025-10-27 13:19:41</sys_updated_on>
         <url/>
@@ -1216,11 +1216,11 @@
         <sys_created_on>2025-10-27 13:29:16</sys_created_on>
         <sys_id>970ff21e3bb4be90e40d9dc643e45a7f</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Array Object</sys_name>
         <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
         <sys_policy/>
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_41bc3e923bb4be90e40d9dc643e45a43_array_object_en</sys_update_name>
         <sys_updated_by>morten.pettersen</sys_updated_by>
         <sys_updated_on>2025-10-27 13:29:16</sys_updated_on>
         <url/>
@@ -1239,11 +1239,11 @@
         <sys_created_on>2025-10-27 13:19:41</sys_created_on>
         <sys_id>fedc7ad23bb4be90e40d9dc643e45ae7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
         <sys_policy/>
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_41bc3e923bb4be90e40d9dc643e45a43___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>morten.pettersen</sys_updated_by>
         <sys_updated_on>2025-10-27 13:19:41</sys_updated_on>
         <url/>
@@ -1886,11 +1886,11 @@
         <sys_created_on>2025-10-27 13:30:37</sys_created_on>
         <sys_id>835f7a5e3bb4be90e40d9dc643e45a86</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>root</sys_name>
         <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
         <sys_policy/>
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_step_ext_output_835f7a5e3bb4be90e40d9dc643e45a6e_root_en</sys_update_name>
         <sys_updated_by>morten.pettersen</sys_updated_by>
         <sys_updated_on>2025-10-27 13:30:37</sys_updated_on>
         <url/>
@@ -2409,11 +2409,11 @@
         <sys_created_on>2025-10-27 14:53:35</sys_created_on>
         <sys_id>1e529fd63bf8be90e40d9dc643e45a51</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>resource_path</sys_name>
         <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
         <sys_policy/>
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_325f3a5e3bb4be90e40d9dc643e45abb_resource_path_en</sys_update_name>
         <sys_updated_by>morten.pettersen</sys_updated_by>
         <sys_updated_on>2025-10-27 14:53:35</sys_updated_on>
         <url/>
@@ -2432,11 +2432,11 @@
         <sys_created_on>2025-10-27 13:30:36</sys_created_on>
         <sys_id>3a5f3a5e3bb4be90e40d9dc643e45ac7</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Season</sys_name>
         <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
         <sys_policy/>
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_input_325f3a5e3bb4be90e40d9dc643e45abb_season_en</sys_update_name>
         <sys_updated_by>morten.pettersen</sys_updated_by>
         <sys_updated_on>2025-10-27 13:30:36</sys_updated_on>
         <url/>
@@ -2456,11 +2456,11 @@
         <sys_created_on>2025-10-27 13:30:38</sys_created_on>
         <sys_id>435f7a5e3bb4be90e40d9dc643e45ad4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Action Status</sys_name>
         <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
         <sys_policy/>
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_325f3a5e3bb4be90e40d9dc643e45abb___action_status___en</sys_update_name>
         <sys_updated_by>morten.pettersen</sys_updated_by>
         <sys_updated_on>2025-10-27 13:30:38</sys_updated_on>
         <url/>
@@ -2479,11 +2479,11 @@
         <sys_created_on>2025-10-27 13:30:38</sys_created_on>
         <sys_id>8f5f7a5e3bb4be90e40d9dc643e45ae9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Don't Treat as Error</sys_name>
         <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
         <sys_policy/>
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_325f3a5e3bb4be90e40d9dc643e45abb___dont_treat_as_error___en</sys_update_name>
         <sys_updated_by>morten.pettersen</sys_updated_by>
         <sys_updated_on>2025-10-27 13:30:38</sys_updated_on>
         <url/>
@@ -2502,11 +2502,11 @@
         <sys_created_on>2025-10-27 13:30:37</sys_created_on>
         <sys_id>c35f7a5e3bb4be90e40d9dc643e45aa8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Array Object</sys_name>
         <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
         <sys_policy/>
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_action_output_325f3a5e3bb4be90e40d9dc643e45abb_array_object_en</sys_update_name>
         <sys_updated_by>morten.pettersen</sys_updated_by>
         <sys_updated_on>2025-10-27 13:30:37</sys_updated_on>
         <url/>
