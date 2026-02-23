@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="x_466181_f1now_seasons" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Seasons - Default view" name="x_466181_f1now_seasons" related_list="NULL" sys_domain="global" view="Default view">1d66b6da3b34be90e40d9dc643e45a11</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_466181_f1now_season_team.season</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 12:51:27</sys_created_on>
+            <sys_id>9d66b6da3b34be90e40d9dc643e45a12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 12:51:27</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Seasons - Default view" name="x_466181_f1now_seasons" related_list="NULL" sys_domain="global" view="Default view">1d66b6da3b34be90e40d9dc643e45a11</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:0d32bada3bf0be90e40d9dc643e45a22</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 12:51:27</sys_created_on>
+            <sys_id>1566b6da3b34be90e40d9dc643e45a13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 12:51:27</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Seasons - Default view</calculated_name>
+            <filter/>
+            <name>x_466181_f1now_seasons</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 12:51:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d66b6da3b34be90e40d9dc643e45a11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Seasons - Default view</sys_name>
+            <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+            <sys_update_name>sys_ui_related_x_466181_f1now_seasons_null</sys_update_name>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 12:51:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</application>
+        <file_path/>
+        <instance_id>a447e870fbb822941feef633beefdced</instance_id>
+        <instance_name>dev318933</instance_name>
+        <name>sys_ui_related_x_466181_f1now_seasons_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_466181_f1now_seasons" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Seasons - Default view" name="x_466181_f1now_seasons" related_list="NULL" sys_domain="global" view="Default view">1d66b6da3b34be90e40d9dc643e45a11</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_466181_f1now_season_team.season</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 12:51:27</sys_created_on>
+            <sys_id>9d66b6da3b34be90e40d9dc643e45a12</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 12:51:27</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Seasons - Default view" name="x_466181_f1now_seasons" related_list="NULL" sys_domain="global" view="Default view">1d66b6da3b34be90e40d9dc643e45a11</list_id>
+            <order_by/>
+            <position>1</position>
+            <related_list>REL:0d32bada3bf0be90e40d9dc643e45a22</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 12:51:27</sys_created_on>
+            <sys_id>1566b6da3b34be90e40d9dc643e45a13</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 12:51:27</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Seasons - Default view</calculated_name>
+            <filter/>
+            <name>x_466181_f1now_seasons</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 12:51:27</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1d66b6da3b34be90e40d9dc643e45a11</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Seasons - Default view</sys_name>
+            <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+            <sys_update_name>sys_ui_related_x_466181_f1now_seasons_null</sys_update_name>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 12:51:27</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>]]></payload>
+        <payload_hash>-1664423701</payload_hash>
+        <record_name>Seasons</record_name>
+        <reverted_from/>
+        <source>04d56054838b3210fdb49850ceaad3c8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-09 17:33:47</sys_created_on>
+        <sys_id>6cf5e894838b3210fdb49850ceaad3b7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c437771fa0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-09 17:33:47</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>2cf5e894908b3210d07a967ea8cdd2b7</update_guid>
+        <update_guid_history>2cf5e894908b3210d07a967ea8cdd2b7:-1664423701</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2026-02-23 16:29:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>b83a4c44b26b4e5d908087123d1e6099</sys_id>
+        <sys_metadata>1d66b6da3b34be90e40d9dc643e45a11</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Seasons - Default view</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_parent display_value="">b0ceea033b60f210e40d9dc643e45ac1</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_scope_delete display_value="">35713dad8080494081ebbd8c8fb386a4</sys_scope_delete>
+        <sys_update_name>sys_ui_related_x_466181_f1now_seasons_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_x_466181_f1now_seasons_null">6cf5e894838b3210fdb49850ceaad3b7</sys_update_version>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2026-02-23 16:29:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

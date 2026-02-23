@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="DELETE">
+        <sc_cat_item display_value="F1Now - Import Drivers">a46122be3b283210e40d9dc643e45adf</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-16 14:55:04</sys_created_on>
+        <sys_id>70396e323ba83210e40d9dc643e45a9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.F1Now - Import Drivers</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name>sc_cat_item_category_70396e323ba83210e40d9dc643e45a9c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-16 14:55:04</sys_updated_on>
+    </sc_cat_item_category>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</application>
+        <file_path/>
+        <instance_id>a447e870fbb822941feef633beefdced</instance_id>
+        <instance_name>dev318933</instance_name>
+        <name>sc_cat_item_category_70396e323ba83210e40d9dc643e45a9c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_category">
+    <sc_cat_item_category action="INSERT_OR_UPDATE">
+        <sc_cat_item display_value="F1Now - Import Drivers">a46122be3b283210e40d9dc643e45adf</sc_cat_item>
+        <sc_category display_value="Can We Help You?">e15706fc0a0a0aa7007fc21e1ab70c2f</sc_category>
+        <sys_class_name>sc_cat_item_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-16 14:55:04</sys_created_on>
+        <sys_id>70396e323ba83210e40d9dc643e45a9c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.F1Now - Import Drivers</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name>sc_cat_item_category_70396e323ba83210e40d9dc643e45a9c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-16 14:55:04</sys_updated_on>
+    </sc_cat_item_category>
+</record_update>]]></payload>
+        <payload_hash>1822664388</payload_hash>
+        <record_name>Can We Help You?.F1Now - Import Drivers</record_name>
+        <reverted_from/>
+        <source>fb81c90b838fb210fdb49850ceaad3e9</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-18 08:37:52</sys_created_on>
+        <sys_id>8691414b838fb210fdb49850ceaad346</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c6fe608cb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-18 08:37:52</sys_updated_on>
+        <type>Catalog Item Category</type>
+        <update_guid>ce91414bd18fb210ea5cfd8767052c45</update_guid>
+        <update_guid_history>ce91414bd18fb210ea5cfd8767052c45:0,67d56854728b321043b91167fff911bd:1471893451</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Can We Help You?.F1Now - Import Drivers">940d18348353b210fdb49850ceaad3f1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-23 16:27:22</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_category">sc_cat_item_category</sys_db_object>
+        <sys_id>1c803fe3a6fa49b29584bbad21fdc641</sys_id>
+        <sys_metadata>70396e323ba83210e40d9dc643e45a9c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Can We Help You?.F1Now - Import Drivers</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_scope_delete display_value="">35713dad8080494081ebbd8c8fb386a4</sys_scope_delete>
+        <sys_update_name>sc_cat_item_category_70396e323ba83210e40d9dc643e45a9c</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_category_70396e323ba83210e40d9dc643e45a9c">8691414b838fb210fdb49850ceaad346</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-23 16:27:22</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

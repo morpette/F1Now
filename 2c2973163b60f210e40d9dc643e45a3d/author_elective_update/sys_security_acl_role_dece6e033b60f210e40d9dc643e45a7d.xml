@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 09:57:57</sys_created_on>
+        <sys_id>dece6e033b60f210e40d9dc643e45a7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_466181_f1now_seasons.x_466181_f1now.admin</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_security_acl display_value="x_466181_f1now_seasons">92ce6e033b60f210e40d9dc643e45a7a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_dece6e033b60f210e40d9dc643e45a7d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 09:57:57</sys_updated_on>
+        <sys_user_role display_value="x_466181_f1now.admin" name="x_466181_f1now.admin">f02973163b60f210e40d9dc643e45ae8</sys_user_role>
+    </sys_security_acl_role>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</application>
+        <file_path/>
+        <instance_id>a447e870fbb822941feef633beefdced</instance_id>
+        <instance_name>dev318933</instance_name>
+        <name>sys_security_acl_role_dece6e033b60f210e40d9dc643e45a7d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="INSERT_OR_UPDATE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 09:57:57</sys_created_on>
+        <sys_id>dece6e033b60f210e40d9dc643e45a7d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_466181_f1now_seasons.x_466181_f1now.admin</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_security_acl display_value="x_466181_f1now_seasons">92ce6e033b60f210e40d9dc643e45a7a</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_dece6e033b60f210e40d9dc643e45a7d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 09:57:57</sys_updated_on>
+        <sys_user_role display_value="x_466181_f1now.admin" name="x_466181_f1now.admin">f02973163b60f210e40d9dc643e45ae8</sys_user_role>
+    </sys_security_acl_role>
+</record_update>]]></payload>
+        <payload_hash>1164377389</payload_hash>
+        <record_name>x_466181_f1now_seasons.x_466181_f1now.admin</record_name>
+        <reverted_from/>
+        <source>04d56054838b3210fdb49850ceaad3c8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-09 17:33:46</sys_created_on>
+        <sys_id>6cf5e894838b3210fdb49850ceaad324</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c43776f140000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-09 17:33:46</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>2cf5e894148b3210ec9352b386f12124</update_guid>
+        <update_guid_history>2cf5e894148b3210ec9352b386f12124:1164377389</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_466181_f1now_seasons.x_466181_f1now.admin">886d5c748353b210fdb49850ceaad369</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-23 16:28:59</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>1e47eb011f7f4036879e35b3b45edae1</sys_id>
+        <sys_metadata>dece6e033b60f210e40d9dc643e45a7d</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_466181_f1now_seasons.x_466181_f1now.admin</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_parent display_value="">92ce6e033b60f210e40d9dc643e45a7a</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_scope_delete display_value="">35713dad8080494081ebbd8c8fb386a4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_dece6e033b60f210e40d9dc643e45a7d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_dece6e033b60f210e40d9dc643e45a7d">6cf5e894838b3210fdb49850ceaad324</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-23 16:28:59</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

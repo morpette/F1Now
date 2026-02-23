@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="DELETE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <filter_extension/>
+        <is_df_table>false</is_df_table>
+        <is_extendable>false</is_extendable>
+        <label>Seasons</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_466181_f1now_seasons</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 09:57:51</sys_created_on>
+        <sys_id>b0ceea033b60f210e40d9dc643e45ac1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>F1now Seasons</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name>sys_db_object_b0ceea033b60f210e40d9dc643e45ac1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 09:57:51</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</application>
+        <file_path/>
+        <instance_id>a447e870fbb822941feef633beefdced</instance_id>
+        <instance_name>dev318933</instance_name>
+        <name>sys_db_object_b0ceea033b60f210e40d9dc643e45ac1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object">
+    <sys_db_object action="INSERT_OR_UPDATE">
+        <access/>
+        <actions_access>true</actions_access>
+        <alter_access>true</alter_access>
+        <caller_access/>
+        <client_scripts_access>true</client_scripts_access>
+        <configuration_access>false</configuration_access>
+        <create_access>true</create_access>
+        <create_access_controls>false</create_access_controls>
+        <delete_access>false</delete_access>
+        <filter_extension/>
+        <is_df_table>false</is_df_table>
+        <is_extendable>false</is_extendable>
+        <label>Seasons</label>
+        <live_feed_enabled>false</live_feed_enabled>
+        <name>x_466181_f1now_seasons</name>
+        <number_ref/>
+        <provider_class/>
+        <read_access>true</read_access>
+        <scriptable_table>false</scriptable_table>
+        <super_class/>
+        <sys_class_name>sys_db_object</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-17 09:57:51</sys_created_on>
+        <sys_id>b0ceea033b60f210e40d9dc643e45ac1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>F1now Seasons</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name>sys_db_object_b0ceea033b60f210e40d9dc643e45ac1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-17 09:57:51</sys_updated_on>
+        <update_access>true</update_access>
+        <user_role/>
+        <ws_access>true</ws_access>
+    </sys_db_object>
+</record_update>]]></payload>
+        <payload_hash>598501795</payload_hash>
+        <record_name>Seasons</record_name>
+        <reverted_from/>
+        <source>04d56054838b3210fdb49850ceaad3c8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-09 17:33:18</sys_created_on>
+        <sys_id>21d52454838b3210fdb49850ceaad347</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c437700470000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-09 17:33:18</sys_updated_on>
+        <type>Table</type>
+        <update_guid>a9d52454ef8b32109a9564cf560e8a46</update_guid>
+        <update_guid_history>a9d52454ef8b32109a9564cf560e8a46:0,a5d52454c58b32108c2de535418c2342:-1057066521</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-23 16:28:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_object">sys_db_object</sys_db_object>
+        <sys_id>1abb2c6b4ec8411d838f41266cf3e6d1</sys_id>
+        <sys_metadata>b0ceea033b60f210e40d9dc643e45ac1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>F1now Seasons</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_scope_delete display_value="">35713dad8080494081ebbd8c8fb386a4</sys_scope_delete>
+        <sys_update_name>sys_db_object_b0ceea033b60f210e40d9dc643e45ac1</sys_update_name>
+        <sys_update_version display_value="sys_db_object_b0ceea033b60f210e40d9dc643e45ac1">21d52454838b3210fdb49850ceaad347</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-23 16:28:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

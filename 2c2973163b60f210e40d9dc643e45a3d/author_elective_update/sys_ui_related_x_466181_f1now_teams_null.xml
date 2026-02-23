@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="x_466181_f1now_teams" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Teams - Default view" name="x_466181_f1now_teams" related_list="NULL" sys_domain="global" view="Default view">7ac836163b74be90e40d9dc643e45ab8</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_466181_f1now_season_team.team</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 13:01:56</sys_created_on>
+            <sys_id>fac836163b74be90e40d9dc643e45ab9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 13:01:56</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Teams - Default view</calculated_name>
+            <filter/>
+            <name>x_466181_f1now_teams</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 13:01:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ac836163b74be90e40d9dc643e45ab8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Teams - Default view</sys_name>
+            <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+            <sys_update_name>sys_ui_related_x_466181_f1now_teams_null</sys_update_name>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 13:01:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</application>
+        <file_path/>
+        <instance_id>a447e870fbb822941feef633beefdced</instance_id>
+        <instance_name>dev318933</instance_name>
+        <name>sys_ui_related_x_466181_f1now_teams_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_466181_f1now_teams" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="Teams - Default view" name="x_466181_f1now_teams" related_list="NULL" sys_domain="global" view="Default view">7ac836163b74be90e40d9dc643e45ab8</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_466181_f1now_season_team.team</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 13:01:56</sys_created_on>
+            <sys_id>fac836163b74be90e40d9dc643e45ab9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 13:01:56</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>Teams - Default view</calculated_name>
+            <filter/>
+            <name>x_466181_f1now_teams</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 13:01:56</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7ac836163b74be90e40d9dc643e45ab8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Teams - Default view</sys_name>
+            <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+            <sys_update_name>sys_ui_related_x_466181_f1now_teams_null</sys_update_name>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 13:01:56</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>]]></payload>
+        <payload_hash>1968003695</payload_hash>
+        <record_name>Teams</record_name>
+        <reverted_from/>
+        <source>04d56054838b3210fdb49850ceaad3c8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-09 17:33:47</sys_created_on>
+        <sys_id>ecf5e894838b3210fdb49850ceaad3bc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c437772150000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-09 17:33:47</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>acf5e894df8b3210286286ca8af02cbc</update_guid>
+        <update_guid_history>acf5e894df8b3210286286ca8af02cbc:1968003695</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2026-02-23 16:28:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>1737a765956b47409ddc08ee560e1440</sys_id>
+        <sys_metadata>7ac836163b74be90e40d9dc643e45ab8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Teams - Default view</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_parent display_value="">25935a963b3c7e90e40d9dc643e45aa3</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_scope_delete display_value="">35713dad8080494081ebbd8c8fb386a4</sys_scope_delete>
+        <sys_update_name>sys_ui_related_x_466181_f1now_teams_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_x_466181_f1now_teams_null">ecf5e894838b3210fdb49850ceaad3bc</sys_update_version>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2026-02-23 16:28:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list action="DELETE" parent="" relationship="" sys_domain="global" table="x_466181_f1now_season_team" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>team</element>
+            <list_id display_value="x_466181_f1now_season_team" element="NULL" name="x_466181_f1now_season_team" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8daf22923bf0be90e40d9dc643e45a64</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 12:21:57</sys_created_on>
+            <sys_id>85af22923bf0be90e40d9dc643e45a66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 12:21:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>season</element>
+            <list_id display_value="x_466181_f1now_season_team" element="NULL" name="x_466181_f1now_season_team" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8daf22923bf0be90e40d9dc643e45a64</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 12:21:57</sys_created_on>
+            <sys_id>c9af22923bf0be90e40d9dc643e45a73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 12:21:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_466181_f1now_season_team" element="NULL" name="x_466181_f1now_season_team" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8daf22923bf0be90e40d9dc643e45a64</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 12:21:57</sys_created_on>
+            <sys_id>41af22923bf0be90e40d9dc643e45a74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 12:21:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_466181_f1now_season_team</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 12:21:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8daf22923bf0be90e40d9dc643e45a64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_466181_f1now_season_team</sys_name>
+            <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+            <sys_update_name>sys_ui_list_x_466181_f1now_season_team_null</sys_update_name>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 12:21:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</application>
+        <file_path/>
+        <instance_id>a447e870fbb822941feef633beefdced</instance_id>
+        <instance_name>dev318933</instance_name>
+        <name>sys_ui_list_x_466181_f1now_season_team_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_list parent="" relationship="" sys_domain="global" table="x_466181_f1now_season_team" version="2" view="">
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>team</element>
+            <list_id display_value="x_466181_f1now_season_team" element="NULL" name="x_466181_f1now_season_team" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8daf22923bf0be90e40d9dc643e45a64</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>0</position>
+            <sum>false</sum>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 12:21:57</sys_created_on>
+            <sys_id>85af22923bf0be90e40d9dc643e45a66</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 12:21:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>season</element>
+            <list_id display_value="x_466181_f1now_season_team" element="NULL" name="x_466181_f1now_season_team" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8daf22923bf0be90e40d9dc643e45a64</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>1</position>
+            <sum>false</sum>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 12:21:57</sys_created_on>
+            <sys_id>c9af22923bf0be90e40d9dc643e45a73</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 12:21:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list_element action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element>sys_updated_on</element>
+            <list_id display_value="x_466181_f1now_season_team" element="NULL" name="x_466181_f1now_season_team" parent="NULL" relationship="NULL" sys_domain="global" view="Default view">8daf22923bf0be90e40d9dc643e45a64</list_id>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <position>2</position>
+            <sum>false</sum>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 12:21:57</sys_created_on>
+            <sys_id>41af22923bf0be90e40d9dc643e45a74</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 12:21:57</sys_updated_on>
+        </sys_ui_list_element>
+        <sys_ui_list action="INSERT_OR_UPDATE">
+            <average_value>false</average_value>
+            <element/>
+            <max_value>false</max_value>
+            <min_value>false</min_value>
+            <name>x_466181_f1now_season_team</name>
+            <parent/>
+            <position/>
+            <relationship/>
+            <sum>false</sum>
+            <sys_class_name>sys_ui_list</sys_class_name>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 12:21:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8daf22923bf0be90e40d9dc643e45a64</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_466181_f1now_season_team</sys_name>
+            <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+            <sys_update_name>sys_ui_list_x_466181_f1now_season_team_null</sys_update_name>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 12:21:57</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_list>
+    </sys_ui_list>
+</record_update>]]></payload>
+        <payload_hash>2068501321</payload_hash>
+        <record_name>Season Team</record_name>
+        <reverted_from/>
+        <source>04d56054838b3210fdb49850ceaad3c8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-09 17:33:46</sys_created_on>
+        <sys_id>e4f5e894838b3210fdb49850ceaad370</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c4377703e0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-09 17:33:46</sys_updated_on>
+        <type>List Layout</type>
+        <update_guid>a4f5e8941f8b321096a0fce9e6c63e70</update_guid>
+        <update_guid_history>a4f5e8941f8b321096a0fce9e6c63e70:2068501321</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2026-02-23 16:29:50</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_list">sys_ui_list</sys_db_object>
+        <sys_id>2943f95f3841443c8848101f1e11f6c9</sys_id>
+        <sys_metadata>8daf22923bf0be90e40d9dc643e45a64</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_466181_f1now_season_team</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_parent display_value="">4ac5e25e3b30be90e40d9dc643e45a9b</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_scope_delete display_value="">35713dad8080494081ebbd8c8fb386a4</sys_scope_delete>
+        <sys_update_name>sys_ui_list_x_466181_f1now_season_team_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_list_x_466181_f1now_season_team_null">e4f5e894838b3210fdb49850ceaad370</sys_update_version>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2026-02-23 16:29:50</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

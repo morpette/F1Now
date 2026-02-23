@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="F1Now">8a130cc73be47210e40d9dc643e45a90</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Seasons</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_466181_f1now_seasons</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_466181_f1now.admin,x_466181_f1now.user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-18 21:11:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>365252a33ba47610e40d9dc643e45a22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Seasons</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name>sys_app_module_365252a33ba47610e40d9dc643e45a22</sys_update_name>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-18 21:11:38</sys_updated_on>
+        <timeline_page/>
+        <title>Seasons</title>
+        <uncancelable>false</uncancelable>
+        <view_name>Default view</view_name>
+        <window_name/>
+    </sys_app_module>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</application>
+        <file_path/>
+        <instance_id>a447e870fbb822941feef633beefdced</instance_id>
+        <instance_name>dev318933</instance_name>
+        <name>sys_app_module_365252a33ba47610e40d9dc643e45a22</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <application display_value="F1Now">8a130cc73be47210e40d9dc643e45a90</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Seasons</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_466181_f1now_seasons</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <require_confirmation>true</require_confirmation>
+        <roles>x_466181_f1now.admin,x_466181_f1now.user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2025-10-18 21:11:38</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>365252a33ba47610e40d9dc643e45a22</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Seasons</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name>sys_app_module_365252a33ba47610e40d9dc643e45a22</sys_update_name>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2025-10-18 21:11:38</sys_updated_on>
+        <timeline_page/>
+        <title>Seasons</title>
+        <uncancelable>false</uncancelable>
+        <view_name>Default view</view_name>
+        <window_name/>
+    </sys_app_module>
+</record_update>]]></payload>
+        <payload_hash>1448034707</payload_hash>
+        <record_name>Seasons</record_name>
+        <reverted_from/>
+        <source>04d56054838b3210fdb49850ceaad3c8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-09 17:33:26</sys_created_on>
+        <sys_id>2fd56854838b3210fdb49850ceaad3e2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c437721640000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-09 17:33:26</sys_updated_on>
+        <type>Module</type>
+        <update_guid>ebd568544d8b3210efd96f857f7800e2</update_guid>
+        <update_guid_history>ebd568544d8b3210efd96f857f7800e2:1448034707</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Seasons">9b2c90708353b210fdb49850ceaad37a</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2026-02-23 16:23:44</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>0e4a3ad2cf584760838a8144299bde40</sys_id>
+        <sys_metadata>365252a33ba47610e40d9dc643e45a22</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Seasons</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_scope_delete display_value="">35713dad8080494081ebbd8c8fb386a4</sys_scope_delete>
+        <sys_update_name>sys_app_module_365252a33ba47610e40d9dc643e45a22</sys_update_name>
+        <sys_update_version display_value="sys_app_module_365252a33ba47610e40d9dc643e45a22">2fd56854838b3210fdb49850ceaad3e2</sys_update_version>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2026-02-23 16:23:44</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
