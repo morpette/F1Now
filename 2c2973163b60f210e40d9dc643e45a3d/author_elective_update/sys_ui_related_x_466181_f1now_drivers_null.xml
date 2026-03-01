@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related action="DELETE" sys_domain="global" table="x_466181_f1now_drivers" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="drivers - Default view" name="x_466181_f1now_drivers" related_list="NULL" sys_domain="global" view="Default view">9370e7de3bbcbe90e40d9dc643e45a9b</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_466181_f1now_season_team_driver.driver</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 15:55:22</sys_created_on>
+            <sys_id>5f70e7de3bbcbe90e40d9dc643e45a9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 15:55:22</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>drivers - Default view</calculated_name>
+            <filter/>
+            <name>x_466181_f1now_drivers</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 15:55:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9370e7de3bbcbe90e40d9dc643e45a9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>drivers - Default view</sys_name>
+            <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+            <sys_update_name>sys_ui_related_x_466181_f1now_drivers_null</sys_update_name>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 15:55:22</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</application>
+        <file_path/>
+        <instance_id>a447e870fbb822941feef633beefdced</instance_id>
+        <instance_name>dev318933</instance_name>
+        <name>sys_ui_related_x_466181_f1now_drivers_null</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_ui_related sys_domain="global" table="x_466181_f1now_drivers" version="2" view="">
+        <sys_ui_related_list_entry action="INSERT_OR_UPDATE">
+            <filter/>
+            <list_id display_value="drivers - Default view" name="x_466181_f1now_drivers" related_list="NULL" sys_domain="global" view="Default view">9370e7de3bbcbe90e40d9dc643e45a9b</list_id>
+            <order_by/>
+            <position>0</position>
+            <related_list>x_466181_f1now_season_team_driver.driver</related_list>
+            <sys_class_name>sys_ui_related_list_entry</sys_class_name>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 15:55:22</sys_created_on>
+            <sys_id>5f70e7de3bbcbe90e40d9dc643e45a9c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 15:55:22</sys_updated_on>
+        </sys_ui_related_list_entry>
+        <sys_ui_related_list action="INSERT_OR_UPDATE">
+            <calculated_name>drivers - Default view</calculated_name>
+            <filter/>
+            <name>x_466181_f1now_drivers</name>
+            <order_by/>
+            <position/>
+            <related_list/>
+            <sys_class_name>sys_ui_related_list</sys_class_name>
+            <sys_created_by>morten.pettersen</sys_created_by>
+            <sys_created_on>2025-10-27 15:55:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9370e7de3bbcbe90e40d9dc643e45a9b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>drivers - Default view</sys_name>
+            <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+            <sys_update_name>sys_ui_related_x_466181_f1now_drivers_null</sys_update_name>
+            <sys_updated_by>morten.pettersen</sys_updated_by>
+            <sys_updated_on>2025-10-27 15:55:22</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_related_list>
+    </sys_ui_related>
+</record_update>]]></payload>
+        <payload_hash>1978579563</payload_hash>
+        <record_name>drivers</record_name>
+        <reverted_from/>
+        <source>04d56054838b3210fdb49850ceaad3c8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-09 17:33:47</sys_created_on>
+        <sys_id>20f5e894838b3210fdb49850ceaad3a6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c437771dd0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-09 17:33:47</sys_updated_on>
+        <type>Related Lists</type>
+        <update_guid>ecf5e894108b32102dcb23dfe4ca24a5</update_guid>
+        <update_guid_history>ecf5e894108b32102dcb23dfe4ca24a5:1978579563</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>morten.pettersen</sys_created_by>
+        <sys_created_on>2026-03-01 09:38:39</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_related_list">sys_ui_related_list</sys_db_object>
+        <sys_id>4eade6ea4b744d7a967d67d332fb6044</sys_id>
+        <sys_metadata>9370e7de3bbcbe90e40d9dc643e45a9b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>drivers - Default view</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_parent display_value="">1579bf163b60f210e40d9dc643e45a89</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_scope_delete display_value="">35713dad8080494081ebbd8c8fb386a4</sys_scope_delete>
+        <sys_update_name>sys_ui_related_x_466181_f1now_drivers_null</sys_update_name>
+        <sys_update_version display_value="sys_ui_related_x_466181_f1now_drivers_null">20f5e894838b3210fdb49850ceaad3a6</sys_update_version>
+        <sys_updated_by>morten.pettersen</sys_updated_by>
+        <sys_updated_on>2026-03-01 09:38:39</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

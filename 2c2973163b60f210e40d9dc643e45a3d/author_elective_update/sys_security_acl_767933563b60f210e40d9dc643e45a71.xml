@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Existing</local_or_existing>
+        <name>x_466181_f1now_drivers</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-15 07:28:52</sys_created_on>
+        <sys_id>767933563b60f210e40d9dc643e45a71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_466181_f1now_drivers</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name>sys_security_acl_767933563b60f210e40d9dc643e45a71</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-15 07:28:52</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+<sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</application>
+        <file_path/>
+        <instance_id>a447e870fbb822941feef633beefdced</instance_id>
+        <instance_name>dev318933</instance_name>
+        <name>sys_security_acl_767933563b60f210e40d9dc643e45a71</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <applies_to/>
+        <condition/>
+        <controlled_by_refs/>
+        <decision_type>allow</decision_type>
+        <description/>
+        <local_or_existing>Existing</local_or_existing>
+        <name>x_466181_f1now_drivers</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <security_attribute/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-10-15 07:28:52</sys_created_on>
+        <sys_id>767933563b60f210e40d9dc643e45a71</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_466181_f1now_drivers</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name>sys_security_acl_767933563b60f210e40d9dc643e45a71</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-10-15 07:28:52</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>]]></payload>
+        <payload_hash>374541950</payload_hash>
+        <record_name>x_466181_f1now_drivers</record_name>
+        <reverted_from/>
+        <source>04d56054838b3210fdb49850ceaad3c8</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-02-09 17:33:45</sys_created_on>
+        <sys_id>0cf56894838b3210fdb49850ceaad3b5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19c437769240000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-02-09 17:33:45</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>c8f56894c38b32108cf4a3d6ef6e40b5</update_guid>
+        <update_guid_history>c8f56894c38b32108cf4a3d6ef6e40b5:374541950</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-01 09:38:38</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>6c64a20090ee4492b0112e8cf7806e29</sys_id>
+        <sys_metadata>767933563b60f210e40d9dc643e45a71</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_466181_f1now_drivers</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_parent display_value="">11d5e054838b3210fdb49850ceaad36d</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_scope_delete display_value="">35713dad8080494081ebbd8c8fb386a4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_767933563b60f210e40d9dc643e45a71</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_767933563b60f210e40d9dc643e45a71">0cf56894838b3210fdb49850ceaad3b5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-01 09:38:38</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
