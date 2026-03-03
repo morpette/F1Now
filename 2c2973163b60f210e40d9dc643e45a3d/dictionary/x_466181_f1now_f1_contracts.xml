@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="8dfffad3831bba10e039c596feaad34d" label="F1 Contracts" max_length="40" name="x_466181_f1now_f1_contracts" type="collection">
+        <element label="Start Date" max_length="40" name="start_date" type="glide_date"/>
+        <element label="Notes" max_length="1000" name="notes" type="string"/>
+        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Salary" max_length="38" name="salary" type="decimal"/>
+        <element label="F1 Person" max_length="32" name="f1_person" reference="x_466181_f1now_f1_person" type="reference"/>
+        <element label="F1 Team" max_length="32" name="f1_team" reference="x_466181_f1now_team" type="reference"/>
+        <element choice="3" label="Contract Status" max_length="40" name="contract_status" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="Rejected" sequence="3" value="rejected"/>
+                <element inactive_on_update="false" label="Proposed" sequence="1" value="proposed"/>
+                <element inactive_on_update="false" label="Draft" sequence="0" value="draft"/>
+                <element inactive_on_update="false" label="Approved" sequence="2" value="approved"/>
+            </choice>
+        </element>
+        <element label="Contract Number" max_length="40" name="contract_number" type="string"/>
+        <element label="End Date" max_length="40" name="end_date" type="glide_date"/>
+        <index name="index">
+            <element name="f1_person"/>
+        </index>
+        <index name="index2">
+            <element name="f1_team"/>
+        </index>
+    </element>
+</database>
