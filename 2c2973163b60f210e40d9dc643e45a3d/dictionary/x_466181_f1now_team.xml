@@ -2,6 +2,7 @@
     <element db_object_id="88226dc783533610fdb49850ceaad3c0" label="F1 Team" max_length="40" name="x_466181_f1now_team" type="collection">
         <element label="Drivers Championships" max_length="40" name="drivers_championships" type="integer"/>
         <element label="Constructors Championships" max_length="40" name="constructors_championships" type="integer"/>
+        <element label="Active" max_length="40" name="active" type="boolean"/>
         <element label="URL" max_length="1024" name="url" type="url"/>
         <element label="First Appearance String" max_length="40" name="first_appearance_string" type="string"/>
         <element label="Nationality" max_length="40" name="nationality" type="string"/>

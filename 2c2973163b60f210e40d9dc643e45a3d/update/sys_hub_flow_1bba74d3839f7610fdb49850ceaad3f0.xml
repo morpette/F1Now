@@ -2,13 +2,12 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
-        <attributes>labelCacheCleanUpExecuted=true</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=4594000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category display_value="Category Test">66ba3813839f7610fdb49850ceaad3ae</category>
-        <compiler_build/>
         <copied_from/>
         <copied_from_name/>
         <description>Syncs data about F1 Teams from API to the relevant F1Now data table.</description>
@@ -16,9 +15,8 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>update_team_table_from_api</internal_name>
-        <label_cache>null</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <label_cache>[{"name":"ac10410b-d153-42de-a990-db0e65f3face.item.constructorsChampionships","label":"2➛teams_object➛constructorsChampionships","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"bfea3572-5a39-4f3f-aa42-0fbb1a1d7c48":["constructors_championships"]},"attributes":{}},{"name":"ac10410b-d153-42de-a990-db0e65f3face.item.driversChampionships","label":"2➛teams_object➛driversChampionships","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"bfea3572-5a39-4f3f-aa42-0fbb1a1d7c48":["drivers_championships"]},"attributes":{}},{"name":"ac10410b-d153-42de-a990-db0e65f3face.item.firstAppeareance","label":"2➛teams_object➛firstAppeareance","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"bfea3572-5a39-4f3f-aa42-0fbb1a1d7c48":["first_appearance_integer"]},"attributes":{}},{"name":"ac10410b-d153-42de-a990-db0e65f3face.item.teamNationality","label":"2➛teams_object➛teamNationality","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"bfea3572-5a39-4f3f-aa42-0fbb1a1d7c48":["nationality"]},"attributes":{}},{"name":"fb8816e5-72e8-4d17-9423-151a96b70ab5.teams_list1","label":"1 - Get All Teams➛Teams List","reference_display":"Teams List","type":"array.object","base_type":"array.object","usedInstances":{"ac10410b-d153-42de-a990-db0e65f3face":["items"]},"attributes":{"sourceId":"7fb2199b-40c4-4275-85fa-7a4f1463a203","child_name":"teams_object","uiUniqueId":"88c4a1dc-f430-43dc-9f8d-68996d125a2f","uiTypeLabel":"Array.Object","co_type_name":"FD54da45d7b013b610f71b0d7e8941d311","child_label":"teams_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"deaf2d9b-556d-4271-88cf-1a6e1ce3dfde","uiType":"array.object","child_type":"object","child_uiUniqueId":"1480c1f3-36ad-4e2c-83a7-a69ead833b39"}},{"name":"ac10410b-d153-42de-a990-db0e65f3face.item.teamId","label":"2➛teams_object➛teamId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"bfea3572-5a39-4f3f-aa42-0fbb1a1d7c48":["id"]},"attributes":{}},{"name":"ac10410b-d153-42de-a990-db0e65f3face.item.teamName","label":"2➛teams_object➛teamName","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"bfea3572-5a39-4f3f-aa42-0fbb1a1d7c48":["name"]},"attributes":{}}]</label_cache>
+        <master_snapshot>00da05d78313b610fdb49850ceaad3ad</master_snapshot>
         <master_snapshot_digest/>
         <name>Update Team Table from API</name>
         <natlang/>
@@ -30,7 +28,7 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <substatus/>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -38,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1bba74d3839f7610fdb49850ceaad3f0</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name>Update Team Table from API</sys_name>
         <sys_overrides/>
         <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
@@ -46,11 +44,11 @@
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
         <sys_update_name>sys_hub_flow_1bba74d3839f7610fdb49850ceaad3f0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-03 13:50:47</sys_updated_on>
+        <sys_updated_on>2026-03-03 14:18:48</sys_updated_on>
         <type>subflow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>52d5859b83df7610fdb49850ceaad37b</version_record>
+        <version_record>a54c0d9b8313b610fdb49850ceaad30c</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=1bba74d3839f7610fdb49850ceaad3f0"/>
     <sys_variable_value action="delete_multiple" query="document_key=1bba74d3839f7610fdb49850ceaad3f0"/>
@@ -72,7 +70,31 @@
     <sys_hub_flow_output action="delete_multiple" query="model=1bba74d3839f7610fdb49850ceaad3f0"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=1bba74d3839f7610fdb49850ceaad3f0"/>
     <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=1bba74d3839f7610fdb49850ceaad3f0"/>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=1bba74d3839f7610fdb49850ceaad3f0^sys_idNOT IN4ed5859b83df7610fdb49850ceaad323"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=1bba74d3839f7610fdb49850ceaad3f0^sys_idNOT IN02aa4d978313b610fdb49850ceaad3df,4ed5859b83df7610fdb49850ceaad323"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Update Team Table from API">1bba74d3839f7610fdb49850ceaad3f0</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>ac10410b-d153-42de-a990-db0e65f3face</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-03 14:11:38</sys_created_on>
+        <sys_id>02aa4d978313b610fdb49850ceaad3df</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 14:18:40</sys_updated_on>
+        <ui_id>bfea3572-5a39-4f3f-aa42-0fbb1a1d7c48</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VTW8TMRD9K5XPm9VuvtrmVoEiIUErQdRLaS2vPU4seT+wvWlClP/OeO2EEAq0pYJLb+sZ+72Zt8+emw1RgkxI/3R0OmLQHw2KQX+QZYMhHwsBIOVpkfflkCSkYiXgTscKDbRbJGTJdOuDKzocj/OznMq8qu+pA1ZiVijbaLa+jpum+cksJPhCaWGgIpOb24Q0zCCaA0Mmm6OUWzdANStA4/mZZz65DMyPrfrBww+14qmOY7URvqosIbByUAlAUsm0hYSUrBLM1WZNJs60GDDAxFWl1/sdC1U5BCR+78qqr4h+lvl9ErA/DiG3X9KoVgjzRa04XDVO1VWIdIXFZK3bsroMTXidQbJWu53OGGkt4kHjS/ZFxIrkp0V9/3FHOFVV111M6pozvV8x54wqWgfW/5RWzR5QJ0TfR4G9ChgEDSVy0pI1jarmtDH1UnU8WHaZzjUuUqnRJAKsmlcp477HFMVk6RTjb7vwNTPKc31AGDy87YSiX1pfYmg5NkeDPrjBcqMad4FwS4h9bJOdvYvfGoV994RUoIU9sLYSn1s8IDYbxvNsmGdFT+SjQW/YF9Bj5+dZTxQZjEdyIBmHVDkoU+//d2K7vfOgzzvu/24H4NVhWrn1c3H2AAgnlbGOek3xznnToUdhDubp2B3SRQcEHgnBhUHljaV8wcoGSe1CNfbpyBHmzSEKonP8RI9xvHN/TXGIdcwT0JCOabCoUDBEiKKXfnrVXv3x6o8f/PHM4QYlusrBSfBV8uh3awcw3T1cxw/ZbrBFArqMBHG45S813MajLPtP8y0U+QLj7VijfzjikKyxYPD28ShKR/enyXcwkX8xA2+/AWrNNnjkCQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=02aa4d978313b610fdb49850ceaad3df"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Get All Teams">13f8b4df835f7610fdb49850ceaad382</action_type>
         <action_type_parent/>
@@ -98,11 +120,204 @@
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=4ed5859b83df7610fdb49850ceaad323"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=1bba74d3839f7610fdb49850ceaad3f0"/>
-    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=1bba74d3839f7610fdb49850ceaad3f0"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=1bba74d3839f7610fdb49850ceaad3f0^sys_idNOT INaa8a49978313b610fdb49850ceaad3fa"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7fca05d78313b610fdb49850ceaad35a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Update Team Table from API">1bba74d3839f7610fdb49850ceaad3f0</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-03 14:11:08</sys_created_on>
+        <sys_id>aa8a49978313b610fdb49850ceaad3fa</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 14:18:40</sys_updated_on>
+        <ui_id>ac10410b-d153-42de-a990-db0e65f3face</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6VSTW/bMAz9Lzonhj8SJ86twFCgh61AV/QyFAYt0YkwWdIkOaln+L+Pip1s6HUnm4/k43siR2b6YPvgX82D9/Ko2eHH+4pJHTH6H5mGDtmByYCdZyt2BtXHeBzbZr/PStyudznu1xuR7dbVJi/W2TaDqmx2KTTbJCB0vlbSh2yaqF1IbxUMb//Hwk9SCYeLWAuONAZ07DB+SoXBYq2gQUXDXpAbJ6IJKSjMKtFWWVrxIi+LPE3z/SZryqLJclEAipLqbp1Pi/lPbxHZKXR3XvpEFXm6YvgRUAukQS0ojyvWgRYQjBvYIbieAIcgnrUa7hUnqQPRsVj74eVv4s7SNBa2SI44zsl7WC+POcP8ZCTHZxuk0TMSoFFLDzeq7/S3WX5cA7bQq3BbAyG9Jz60UXNUsUhqv5/M5eU28FHqq78lqQwHdY8gBCebPqCPa0CFHRHVHVgr9bG2zpzltZm0dMlRUZC0ylxoaDy7BHgUntATQfJI+Jcr/AZORhdfiYaap6v7+lcf584+FsX1bJoKPHfShgeiO+MibnqPdzsz+fkwBHLpaeBrxJ5u1x4TAy1Z8n+hi3E/o9S/2PQH+NL5hzcDAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=1bba74d3839f7610fdb49850ceaad3f0"/>
     <sys_hub_flow_variable action="delete_multiple" query="model=1bba74d3839f7610fdb49850ceaad3f0"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_1bba74d3839f7610fdb49850ceaad3f0"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_1bba74d3839f7610fdb49850ceaad3f0"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="Category Test">66ba3813839f7610fdb49850ceaad3ae</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Syncs data about F1 Teams from API to the relevant F1Now data table.</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>update_team_table_from_api</internal_name>
+        <label_cache>[{"name":"ac10410b-d153-42de-a990-db0e65f3face.item.constructorsChampionships","label":"2➛teams_object➛constructorsChampionships","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"bfea3572-5a39-4f3f-aa42-0fbb1a1d7c48":["constructors_championships"]},"attributes":{}},{"name":"ac10410b-d153-42de-a990-db0e65f3face.item.driversChampionships","label":"2➛teams_object➛driversChampionships","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"bfea3572-5a39-4f3f-aa42-0fbb1a1d7c48":["drivers_championships"]},"attributes":{}},{"name":"ac10410b-d153-42de-a990-db0e65f3face.item.firstAppeareance","label":"2➛teams_object➛firstAppeareance","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"bfea3572-5a39-4f3f-aa42-0fbb1a1d7c48":["first_appearance_integer"]},"attributes":{}},{"name":"ac10410b-d153-42de-a990-db0e65f3face.item.teamNationality","label":"2➛teams_object➛teamNationality","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"bfea3572-5a39-4f3f-aa42-0fbb1a1d7c48":["nationality"]},"attributes":{}},{"name":"fb8816e5-72e8-4d17-9423-151a96b70ab5.teams_list1","label":"1 - Get All Teams➛Teams List","reference_display":"Teams List","type":"array.object","base_type":"array.object","usedInstances":{"ac10410b-d153-42de-a990-db0e65f3face":["items"]},"attributes":{"sourceId":"7fb2199b-40c4-4275-85fa-7a4f1463a203","child_name":"teams_object","uiUniqueId":"88c4a1dc-f430-43dc-9f8d-68996d125a2f","uiTypeLabel":"Array.Object","co_type_name":"FD54da45d7b013b610f71b0d7e8941d311","child_label":"teams_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"deaf2d9b-556d-4271-88cf-1a6e1ce3dfde","uiType":"array.object","child_type":"object","child_uiUniqueId":"1480c1f3-36ad-4e2c-83a7-a69ead833b39"}},{"name":"ac10410b-d153-42de-a990-db0e65f3face.item.teamId","label":"2➛teams_object➛teamId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"bfea3572-5a39-4f3f-aa42-0fbb1a1d7c48":["id"]},"attributes":{}},{"name":"ac10410b-d153-42de-a990-db0e65f3face.item.teamName","label":"2➛teams_object➛teamName","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"bfea3572-5a39-4f3f-aa42-0fbb1a1d7c48":["name"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Update Team Table from API</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Update Team Table from API">1bba74d3839f7610fdb49850ceaad3f0</parent_flow>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-03 14:12:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>00da05d78313b610fdb49850ceaad3ad</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 14:18:41</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=00da05d78313b610fdb49850ceaad3ad"/>
+    <sys_variable_value action="delete_multiple" query="document_key=00da05d78313b610fdb49850ceaad3ad"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=00da05d78313b610fdb49850ceaad3ad"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=00da05d78313b610fdb49850ceaad3ad^sys_idNOT INc4da05d78313b610fdb49850ceaad3ae"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>00da05d78313b610fdb49850ceaad3ad</id>
+        <name>Update Team Table from API</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-03 14:12:20</sys_created_on>
+        <sys_id>c4da05d78313b610fdb49850ceaad3ae</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 14:12:20</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=c4da05d78313b610fdb49850ceaad3ae"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=00da05d78313b610fdb49850ceaad3ad"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=00da05d78313b610fdb49850ceaad3ad"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=00da05d78313b610fdb49850ceaad3ad"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=00da05d78313b610fdb49850ceaad3ad"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=00da05d78313b610fdb49850ceaad3ad^sys_idNOT IN4cda05d78313b610fdb49850ceaad3cf,80da05d78313b610fdb49850ceaad3ce"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Team Table from API">00da05d78313b610fdb49850ceaad3ad</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>ac10410b-d153-42de-a990-db0e65f3face</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-03 14:12:20</sys_created_on>
+        <sys_id>4cda05d78313b610fdb49850ceaad3cf</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 14:18:41</sys_updated_on>
+        <ui_id>bfea3572-5a39-4f3f-aa42-0fbb1a1d7c48</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1V204bMRD9FeTnZLWbG5A3BIpUqQWpIF4oXc3a48SS91LbC6RR/r3j9W5I0/QSiipV4m09lzNnzo49dyumBJuywfH4eAw4GA+z4WAYx8MRnwiBKOVxlgzkiPVYATlSpINMY9oceuwBdO2NT+loMklOklQmRfmYOoScvELZSsPytg2aJUc3wcEXSguDBZve3fdYBYbQHBo2Xe24/pSbhgw1hd54ckeXgdw+wm5Z7bW93wdQGuFJxT2GTw4LgcRGgrbYYzkUAlxplmzqTE0GgyCuCr3cRCxU4QiQ+dgnq75S2ZPYx0mk9jgG3+aYtmIFs7wAB9eEzF1t2lC+KBVHG4QRKKHW7nzbFgKuKqfKIqQ0bbbZpa7z4jJIwjYA3b8hS22JBFa+T8+8bUNeL8rHjx3LmSoaSVqnLjnozQmcMyqrneezYrW62aN1sHZqe+nIiBpzqpnmUFWqmKeVKR9UU4do59Fc0yGSmgZLoFXzIgLue4zoD0A0I/tFY74Fo3ytDwRDyeses0t7rsHa57ZJ7/RL7UkHEdp206CYT+FGVe6MCjxg29m6112S7JeDCM8zJxVqYbcuiBKfakoQqxXwJB4lcdYXyXjYHw0E9uH0NO6LLMbJWA4lcIyUwzzyt+idWK8/e9CXpfvGGwCvF2jlli/F2QAQnFTGutSrTDfXzy6NOs7RHI7dIJ01QOiRCFwYUt7YlC8gr6ioXajKHo7cwpxvoxA6p8/mWpV/X2Iba7dOQKNyoNGSQmEggpVm6Ye38W0+3ubju/k4cEX+/mXqVuSse5p2n6puNWJOg+kwDU/XznpsnUe3rbNdkclrrcjJOI7/py0ZOnuFJbmr+j9clFSssmjoxvJWlKbc4ftza9P/ZJPefwPnw7uucAoAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4cda05d78313b610fdb49850ceaad3cf"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Get All Teams">13f8b4df835f7610fdb49850ceaad382</action_type>
+        <action_type_parent display_value="Get All Teams">956fa49b831f7610fdb49850ceaad3d0</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>13f8b4df835f7610fdb49850ceaad382</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Team Table from API">00da05d78313b610fdb49850ceaad3ad</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-03 14:12:20</sys_created_on>
+        <sys_id>80da05d78313b610fdb49850ceaad3ce</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 14:12:20</sys_updated_on>
+        <ui_id>fb8816e5-72e8-4d17-9423-151a96b70ab5</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=80da05d78313b610fdb49850ceaad3ce"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=00da05d78313b610fdb49850ceaad3ad"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=00da05d78313b610fdb49850ceaad3ad^sys_idNOT INc4da05d78313b610fdb49850ceaad3cc"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7fca05d78313b610fdb49850ceaad35a</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Update Team Table from API">00da05d78313b610fdb49850ceaad3ad</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-03 14:12:20</sys_created_on>
+        <sys_id>c4da05d78313b610fdb49850ceaad3cc</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 14:18:41</sys_updated_on>
+        <ui_id>ac10410b-d153-42de-a990-db0e65f3face</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6VTTW+jMBD9Lz4TBCQhH7eqVaVKu1uprXpZVWiwh8RaY7O2Scqi/Pcdh49WvfYE8zzz5r2H6ZlpfdN692JunJMHzfa/3yImdcDovWcaamR7Jj3WjkXsBKoNdd9X5Xab5rhebDLcLlYi3Sx2q2y5SNcp7PJyk0C5jj1C7QolnU8vFxoX0jUKutfvsfCjVMLiKLYBSxo9WrbvvxxJQUvSnah2abLjyyxfZkmSbVdpmS/LNBNLQJEToYISFbU+jC6/mPZdE0qL3FgxAT/GmacZpUcQkSURw3ePWiCtr0A5jFgNWoA3tmN7b1sCLIJ41KqbO45Se6JjoffdyX+0MU2S0FghGeI4HM5lMWY5wNUdeHgmau5bO7byo5Ec3RCFwApa5W8/Y0PDY+Ol0cOIh1JN00a1tf41JMFmgunTEdI6EoFNMBqkjz6q56M5P00q76W+hjIeKsNBzRV4b2XZ+qCnZ6iwJqKihqaR+lA01pzkdZi01PFBURFXypxpabiqMfAgPKZcIb4n/O4Kv4KVwcVPoqHhS8Rc524VOPfhhUIs/rZByeBs9FAMMYQRbmXjb2jBCUe5l7dw+wfuOVMuHUl4CdjD9M+Eg45ukOSfobOxf4L4D+zyH6gJkvp9AwAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=00da05d78313b610fdb49850ceaad3ad"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=00da05d78313b610fdb49850ceaad3ad"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_00da05d78313b610fdb49850ceaad3ad"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_00da05d78313b610fdb49850ceaad3ad"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>1bba74d3839f7610fdb49850ceaad3f0</sys_id>
+        <latest_snapshot>00da05d78313b610fdb49850ceaad3ad</latest_snapshot>
+        <compiler_build/>
+        <version_record/>
+    </sys_hub_flow>
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=1bba74d3839f7610fdb49850ceaad3f0"/>
-    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=1bba74d3839f7610fdb49850ceaad3f0"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=1bba74d3839f7610fdb49850ceaad3f0^sys_idNOT IN9cda45d78313b610fdb49850ceaad314"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@4980eb12</plan>
+        <plan_id display_value="Update Team Table from API">1bba74d3839f7610fdb49850ceaad3f0</plan_id>
+        <snapshot>00da05d78313b610fdb49850ceaad3ad</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-03 14:12:20</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>9cda45d78313b610fdb49850ceaad314</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-03 14:18:41</sys_updated_on>
+    </sys_flow_subflow_plan>
 </record_update>
