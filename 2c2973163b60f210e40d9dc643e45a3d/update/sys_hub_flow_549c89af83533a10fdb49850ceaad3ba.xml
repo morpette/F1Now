@@ -4,7 +4,7 @@
         <acls/>
         <active>true</active>
         <annotation/>
-        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=330000,viewActivatedIn=naturalLanguage</attributes>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=18905000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -15,7 +15,7 @@
         <flow_priority>MEDIUM</flow_priority>
         <generation_source/>
         <internal_name>update_season_table_from_api</internal_name>
-        <label_cache>[{"name":"17cf8fd9-bf22-48e2-96dd-8608cdbbd276.seasons","label":"1 - Get All Seasons➛Seasons List","reference_display":"Seasons List","type":"array.object","base_type":"array.object","usedInstances":{"6d4533c9-cf17-4e46-87ce-20768536cc38":["items"]},"attributes":{"sourceId":"59f3aee0-8fa4-48a3-8694-121b72044e32","pwd2droppable":"true","child_name":"championships_object","uiUniqueId":"f1b8286d-15b2-4d41-9423-783b63638ba1","uiTypeLabel":"Array.Object","co_type_name":"FD6e960963b2533a10f757b19ff4fb1afb","child_label":"championships_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"6d2ec427-e434-494d-87a2-a1c28bb40cff","uiType":"array.object","child_type":"object","child_uiUniqueId":"5d6eb61f-c315-4bcc-897a-72768dfc2bf4"}},{"name":"6d4533c9-cf17-4e46-87ce-20768536cc38.item.championshipId","label":"2 - For Each➛championships_object➛championshipId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"f0c50ddd-b7c1-453f-acb3-175add839f15":["id"]},"attributes":{}},{"name":"6d4533c9-cf17-4e46-87ce-20768536cc38.item.championshipName","label":"2 - For Each➛championships_object➛championshipName","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"f0c50ddd-b7c1-453f-acb3-175add839f15":["name"]},"attributes":{}},{"name":"6d4533c9-cf17-4e46-87ce-20768536cc38.item.url","label":"2 - For Each➛championships_object➛url","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"f0c50ddd-b7c1-453f-acb3-175add839f15":["url"]},"attributes":{}},{"name":"6d4533c9-cf17-4e46-87ce-20768536cc38.item.year","label":"2 - For Each➛championships_object➛year","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"f0c50ddd-b7c1-453f-acb3-175add839f15":["year"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"6d4533c9-cf17-4e46-87ce-20768536cc38.item.year","label":"2 - For Each➛championships_object➛year","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"f0c50ddd-b7c1-453f-acb3-175add839f15":["year"]},"attributes":{}},{"name":"6d4533c9-cf17-4e46-87ce-20768536cc38.item.url","label":"2 - For Each➛championships_object➛url","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"f0c50ddd-b7c1-453f-acb3-175add839f15":["url"]},"attributes":{}},{"name":"6d4533c9-cf17-4e46-87ce-20768536cc38.item.championshipName","label":"2 - For Each➛championships_object➛championshipName","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"f0c50ddd-b7c1-453f-acb3-175add839f15":["name"]},"attributes":{}},{"name":"6d4533c9-cf17-4e46-87ce-20768536cc38.item.championshipId","label":"2 - For Each➛championships_object➛championshipId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"f0c50ddd-b7c1-453f-acb3-175add839f15":["id"]},"attributes":{}},{"name":"17cf8fd9-bf22-48e2-96dd-8608cdbbd276.seasons","label":"1 - Get All Seasons➛Seasons List","reference_display":"Seasons List","type":"array.object","base_type":"array.object","usedInstances":{"6d4533c9-cf17-4e46-87ce-20768536cc38":["items"]},"attributes":{"sourceId":"59f3aee0-8fa4-48a3-8694-121b72044e32","pwd2droppable":"true","child_name":"championships_object","uiUniqueId":"f1b8286d-15b2-4d41-9423-783b63638ba1","uiTypeLabel":"Array.Object","co_type_name":"FD6e960963b2533a10f757b19ff4fb1afb","child_label":"championships_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"6d2ec427-e434-494d-87a2-a1c28bb40cff","uiType":"array.object","child_type":"object","child_uiUniqueId":"5d6eb61f-c315-4bcc-897a-72768dfc2bf4"}},{"name":"67b3bd5f-cae6-4f4b-a122-d650cb10c43b.seasons","label":"1 - Get All Seasons➛Seasons List","type":"array.object","base_type":"array.object","usedInstances":{"6d4533c9-cf17-4e46-87ce-20768536cc38":["items"]},"attributes":{"sourceId":"59f3aee0-8fa4-48a3-8694-121b72044e32","pwd2droppable":"true","child_name":"championships_object","uiUniqueId":"f1b8286d-15b2-4d41-9423-783b63638ba1","uiTypeLabel":"Array.Object","co_type_name":"FDf144d6675edb3a10b562a58e4759538f","child_label":"championships_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"6d2ec427-e434-494d-87a2-a1c28bb40cff","uiType":"array.object","child_type":"object","child_uiUniqueId":"5d6eb61f-c315-4bcc-897a-72768dfc2bf4"}}]</label_cache>
         <master_snapshot>09ddc96383933a10fdb49850ceaad314</master_snapshot>
         <master_snapshot_digest/>
         <name>Update Season Table from API</name>
@@ -36,7 +36,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>549c89af83533a10fdb49850ceaad3ba</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Update Season Table from API</sys_name>
         <sys_overrides/>
         <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
@@ -44,11 +44,11 @@
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
         <sys_update_name>sys_hub_flow_549c89af83533a10fdb49850ceaad3ba</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-04 14:09:48</sys_updated_on>
+        <sys_updated_on>2026-03-04 14:13:37</sys_updated_on>
         <type>subflow</type>
         <updation_source/>
         <version>2</version>
-        <version_record/>
+        <version_record>9cb41aa783db3a10fdb49850ceaad312</version_record>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=549c89af83533a10fdb49850ceaad3ba"/>
     <sys_variable_value action="delete_multiple" query="document_key=549c89af83533a10fdb49850ceaad3ba"/>
@@ -70,10 +70,10 @@
     <sys_hub_flow_output action="delete_multiple" query="model=549c89af83533a10fdb49850ceaad3ba"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=549c89af83533a10fdb49850ceaad3ba"/>
     <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=549c89af83533a10fdb49850ceaad3ba"/>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=549c89af83533a10fdb49850ceaad3ba^sys_idNOT IN1f9c8daf83533a10fdb49850ceaad306,c22dcd6f83533a10fdb49850ceaad359"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=549c89af83533a10fdb49850ceaad3ba^sys_idNOT IN11549a6783db3a10fdb49850ceaad391,c22dcd6f83533a10fdb49850ceaad359"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Get All Seasons">9294852f83133a10fdb49850ceaad3f3</action_type>
-        <action_type_parent display_value="Get All Seasons">936a2a5f831fb610fdb49850ceaad356</action_type_parent>
+        <action_type display_value="Get All Seasons">6144966783db3a10fdb49850ceaad390</action_type>
+        <action_type_parent display_value="Get All Seasons">cab19aaf839b3a10fdb49850ceaad357</action_type_parent>
         <attributes/>
         <comment/>
         <compiled_snapshot/>
@@ -84,17 +84,17 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-03-04 08:58:40</sys_created_on>
-        <sys_id>1f9c8daf83533a10fdb49850ceaad306</sys_id>
+        <sys_created_on>2026-03-04 14:12:01</sys_created_on>
+        <sys_id>11549a6783db3a10fdb49850ceaad391</sys_id>
         <sys_mod_count>2</sys_mod_count>
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-04 09:03:58</sys_updated_on>
-        <ui_id>17cf8fd9-bf22-48e2-96dd-8608cdbbd276</ui_id>
+        <sys_updated_on>2026-03-04 14:13:32</sys_updated_on>
+        <ui_id>67b3bd5f-cae6-4f4b-a122-d650cb10c43b</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</values>
     </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=1f9c8daf83533a10fdb49850ceaad306"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=11549a6783db3a10fdb49850ceaad391"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
@@ -110,10 +110,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-04 09:01:03</sys_created_on>
         <sys_id>c22dcd6f83533a10fdb49850ceaad359</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>5</sys_mod_count>
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-04 09:03:58</sys_updated_on>
+        <sys_updated_on>2026-03-04 14:13:32</sys_updated_on>
         <ui_id>f0c50ddd-b7c1-453f-acb3-175add839f15</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/+1V24rbMBD9laBnx1ix4zh5K5RAH7oL3bIv262RpXEskC+V5GzS4H/vyJfsdtvAblsoheZNczlzzsxkfHciUpANiSkEyzWNeUjDcBEEiySiWRxmdCFCBhARj1SsBIy0LFOQ9g+P7JlqnfGQRnFME5rmtKofUgPM1BX6hTSNYsfbMWxLZzeTixdSCQ0V2dzde6RhGhEtaLI5PXPZYwOpYhkoRPjoqs+uhuovZf5d8gUlrspzW62FIxR4BA4WKgFYL2fKgEdKVglma30kG6tbNGhg4rpSx3NEISuLgMTFHoz8iuhJ4OJyQGkcBt/5mY6tGsy8qCWH68ZK7FVv6YmNzlq1ZXU1iHBNhpy1yk5NRktrEA8aR9mRGBnlN0X98GEquJVVr250qpozdX4xa7XMWgvGzQMUlAiUlqxpZLVLG13vZZ+MXEp/p/Dh5woHL8DIXeUz7oj72CHmb9H+tjffMi2divcIg8ldrz790rq6g46RcTqIxgDDtWzsG4Tbw0iu86aVFRCsLw6eZo+D7rfUPFlXKT61QRCK0ykW0TIM+XrOc7qaRxDF82TFYb4IVnGyDGPOw8SXFkqfF6xsUJUpZPNOdN1nB/57MG6ECNRq9XocTMLUIzD9+lyX1XU//j3/t2Voyy+eJiixmRZmQzu9F2/pBLCVoIT5ydpOt2kskO7HAuN9on/qPtE46H9/50oNPP+xI/Xke3HhXN1/A31XAVBjBwAA</values>
@@ -139,13 +139,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-04 09:00:07</sys_created_on>
         <sys_id>5cfc8daf83533a10fdb49850ceaad376</sys_id>
-        <sys_mod_count>5</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-04 09:03:58</sys_updated_on>
+        <sys_updated_on>2026-03-04 14:13:32</sys_updated_on>
         <ui_id>6d4533c9-cf17-4e46-87ce-20768536cc38</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/51TwU7jMBD9F5/bKElRSHpDWiFxYJEAcVmhyLEnrYVje22nJUT5951p0oI4oT3F82bmzXseZ2S2j66P4dnehKB2hm3/vK6YMoTheWRKsi3LKtlWWVqJTV5s8jTNy6usKTZNlssNB1mwFTO8A6xUEbqA4YHrnuJxzK5FW7ayWjdtnq+vSsjXVSHluizSUsimkfl1kQTgwZowTdgqVXCaDy//zyD2SksPixnHPWqL4Nl2/JaKg4Na8wY0DnoEYb0k8T/1fO68W0x/uwNix9BfePFDKvJ0xeA9gpGAg1quA6xYx43k0fqBbaPvEfDA5YPRw6Vir0xEOka170F9IHeWplTYAjoSMCcvYb1c5AyLvVUCHlxU1sxI5I1eeoTVfWd+z/JpBdDyXsfzChDpA/KBI82kYpHUPu3t8fE88FaZk78lqa3g+hLxGL1q+giB1gAaOiSqO+6cMrvaeXtQp2bU0iU7jUHSanvEofQsEy5IeIJXxJNbxH+d4BfuFbm4Rxpsnk7u6789zZ19LIrr2TQWBOGVizdId4BF3PRK73VmCvPDkCBUwIHPhN2d/wZKDLhkJb5CR+vfSOonNv0DDP7OXFcDAAA=</values>
+        <values>H4sIAAAAAAAA/51STW/bMAz9Lzonhj9Sr8mtwFCgh61AV/RSFAYl0YkwWdIkOalr+L+Xip1s6HEnm4/k43siR2b76PoYnu1dCGpv2O71bcWUSRj9j8xAh2zHVMQusBU7gu5TPI71N15xedOuBWC93rQbvoaiLNeyvskFL3KxqXgWEII1YZqoVargNAwv/88gDkpLj4tIB560RfRsN35JxcFho4GjpkFPKKyXSbySFBZb2W6LfCuqsq7KPC9vNwWvK16UsgKUNdVdOh8W01/eILFT6K+89EkqynzF8D2ikUiDWtABV6wDIyFaP7Bd9D0BHkE+Gj1cKw7KRKJjqfY9qA/iLvI8FbZIjgTOyWvYLA85w+JglcBHF5U1MxKB66VHWN135ucsP60AW+h1vKyAkD4QH7qkOalYJLW/Dvb0dBl4r8zZ35LUVoC+RhCjV7yPGNIaUGNHRE0Hzimzb5y3R3VuJi1dttcUZK22Jxqazi0DkYRn9ESQ3RP+/Qy/gFfJxQ+ioebp7L7506e5s49FcTObpoIgvHLxjuiOuIib3tK9zkxhPgyJQgUa+Jywh8uVp8RAS1biX+hk/e8k9S82fQLRw0P+LwMAAA==</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=549c89af83533a10fdb49850ceaad3ba"/>
@@ -166,7 +166,7 @@
         <description/>
         <flow_priority>MEDIUM</flow_priority>
         <internal_name>update_season_table_from_api</internal_name>
-        <label_cache>[{"name":"17cf8fd9-bf22-48e2-96dd-8608cdbbd276.seasons","label":"1 - Get All Seasons➛Seasons List","reference_display":"Seasons List","type":"array.object","base_type":"array.object","usedInstances":{"6d4533c9-cf17-4e46-87ce-20768536cc38":["items"]},"attributes":{"sourceId":"59f3aee0-8fa4-48a3-8694-121b72044e32","pwd2droppable":"true","child_name":"championships_object","uiUniqueId":"f1b8286d-15b2-4d41-9423-783b63638ba1","uiTypeLabel":"Array.Object","co_type_name":"FD6e960963b2533a10f757b19ff4fb1afb","child_label":"championships_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"6d2ec427-e434-494d-87a2-a1c28bb40cff","uiType":"array.object","child_type":"object","child_uiUniqueId":"5d6eb61f-c315-4bcc-897a-72768dfc2bf4"}},{"name":"6d4533c9-cf17-4e46-87ce-20768536cc38.item.championshipId","label":"2 - For Each➛championships_object➛championshipId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"f0c50ddd-b7c1-453f-acb3-175add839f15":["id"]},"attributes":{}},{"name":"6d4533c9-cf17-4e46-87ce-20768536cc38.item.championshipName","label":"2 - For Each➛championships_object➛championshipName","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"f0c50ddd-b7c1-453f-acb3-175add839f15":["name"]},"attributes":{}},{"name":"6d4533c9-cf17-4e46-87ce-20768536cc38.item.url","label":"2 - For Each➛championships_object➛url","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"f0c50ddd-b7c1-453f-acb3-175add839f15":["url"]},"attributes":{}},{"name":"6d4533c9-cf17-4e46-87ce-20768536cc38.item.year","label":"2 - For Each➛championships_object➛year","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"f0c50ddd-b7c1-453f-acb3-175add839f15":["year"]},"attributes":{}}]</label_cache>
+        <label_cache>[{"name":"6d4533c9-cf17-4e46-87ce-20768536cc38.item.year","label":"2 - For Each➛championships_object➛year","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"f0c50ddd-b7c1-453f-acb3-175add839f15":["year"]},"attributes":{}},{"name":"6d4533c9-cf17-4e46-87ce-20768536cc38.item.url","label":"2 - For Each➛championships_object➛url","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"f0c50ddd-b7c1-453f-acb3-175add839f15":["url"]},"attributes":{}},{"name":"6d4533c9-cf17-4e46-87ce-20768536cc38.item.championshipName","label":"2 - For Each➛championships_object➛championshipName","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"f0c50ddd-b7c1-453f-acb3-175add839f15":["name"]},"attributes":{}},{"name":"6d4533c9-cf17-4e46-87ce-20768536cc38.item.championshipId","label":"2 - For Each➛championships_object➛championshipId","reference":"","reference_display":"","type":"string","base_type":"string","column_name":"","usedInstances":{"f0c50ddd-b7c1-453f-acb3-175add839f15":["id"]},"attributes":{}},{"name":"17cf8fd9-bf22-48e2-96dd-8608cdbbd276.seasons","label":"1 - Get All Seasons➛Seasons List","reference_display":"Seasons List","type":"array.object","base_type":"array.object","usedInstances":{"6d4533c9-cf17-4e46-87ce-20768536cc38":["items"]},"attributes":{"sourceId":"59f3aee0-8fa4-48a3-8694-121b72044e32","pwd2droppable":"true","child_name":"championships_object","uiUniqueId":"f1b8286d-15b2-4d41-9423-783b63638ba1","uiTypeLabel":"Array.Object","co_type_name":"FD6e960963b2533a10f757b19ff4fb1afb","child_label":"championships_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"6d2ec427-e434-494d-87a2-a1c28bb40cff","uiType":"array.object","child_type":"object","child_uiUniqueId":"5d6eb61f-c315-4bcc-897a-72768dfc2bf4"}},{"name":"67b3bd5f-cae6-4f4b-a122-d650cb10c43b.seasons","label":"1 - Get All Seasons➛Seasons List","type":"array.object","base_type":"array.object","usedInstances":{"6d4533c9-cf17-4e46-87ce-20768536cc38":["items"]},"attributes":{"sourceId":"59f3aee0-8fa4-48a3-8694-121b72044e32","pwd2droppable":"true","child_name":"championships_object","uiUniqueId":"f1b8286d-15b2-4d41-9423-783b63638ba1","uiTypeLabel":"Array.Object","co_type_name":"FDf144d6675edb3a10b562a58e4759538f","child_label":"championships_object","child_type_label":"Object","element_mapping_provider":"com.glide.flow_design.action.data.FlowDesignVariableMapper","sourceType":"step","sourceUiUniqueId":"6d2ec427-e434-494d-87a2-a1c28bb40cff","uiType":"array.object","child_type":"object","child_uiUniqueId":"5d6eb61f-c315-4bcc-897a-72768dfc2bf4"}}]</label_cache>
         <master>true</master>
         <name>Update Season Table from API</name>
         <natlang/>
@@ -183,7 +183,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>09ddc96383933a10fdb49850ceaad314</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name/>
         <sys_overrides/>
         <sys_package/>
@@ -191,7 +191,7 @@
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
         <sys_update_name/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-04 09:03:58</sys_updated_on>
+        <sys_updated_on>2026-03-04 14:13:34</sys_updated_on>
         <type>subflow</type>
         <version>2</version>
     </sys_hub_flow_snapshot>
@@ -215,7 +215,7 @@
     <sys_hub_flow_output action="delete_multiple" query="model=09ddc96383933a10fdb49850ceaad314"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=09ddc96383933a10fdb49850ceaad314"/>
     <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=09ddc96383933a10fdb49850ceaad314"/>
-    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=09ddc96383933a10fdb49850ceaad314^sys_idNOT IN09ddc96383933a10fdb49850ceaad32a,4dddc96383933a10fdb49850ceaad328"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=09ddc96383933a10fdb49850ceaad314^sys_idNOT IN09ddc96383933a10fdb49850ceaad32a,33a4d6a783db3a10fdb49850ceaad346"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
@@ -241,11 +241,11 @@
     </sys_hub_action_instance_v2>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=09ddc96383933a10fdb49850ceaad32a"/>
     <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
-        <action_type display_value="Get All Seasons">9294852f83133a10fdb49850ceaad3f3</action_type>
-        <action_type_parent display_value="Get All Seasons">936a2a5f831fb610fdb49850ceaad356</action_type_parent>
+        <action_type display_value="Get All Seasons">6144966783db3a10fdb49850ceaad390</action_type>
+        <action_type_parent display_value="Get All Seasons">cab19aaf839b3a10fdb49850ceaad357</action_type_parent>
         <attributes/>
         <comment/>
-        <compiled_snapshot>9294852f83133a10fdb49850ceaad3f3</compiled_snapshot>
+        <compiled_snapshot>6144966783db3a10fdb49850ceaad390</compiled_snapshot>
         <display_text/>
         <flow display_value="Update Season Table from API">09ddc96383933a10fdb49850ceaad314</flow>
         <generation_source/>
@@ -253,17 +253,17 @@
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-03-04 09:03:59</sys_created_on>
-        <sys_id>4dddc96383933a10fdb49850ceaad328</sys_id>
+        <sys_created_on>2026-03-04 14:13:34</sys_created_on>
+        <sys_id>33a4d6a783db3a10fdb49850ceaad346</sys_id>
         <sys_mod_count>1</sys_mod_count>
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-04 09:03:59</sys_updated_on>
-        <ui_id>17cf8fd9-bf22-48e2-96dd-8608cdbbd276</ui_id>
+        <sys_updated_on>2026-03-04 14:13:34</sys_updated_on>
+        <ui_id>67b3bd5f-cae6-4f4b-a122-d650cb10c43b</ui_id>
         <updation_source/>
         <values>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</values>
     </sys_hub_action_instance_v2>
-    <sys_hub_alias_mapping action="delete_multiple" query="source_id=4dddc96383933a10fdb49850ceaad328"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=33a4d6a783db3a10fdb49850ceaad346"/>
     <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=09ddc96383933a10fdb49850ceaad314"/>
     <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=09ddc96383933a10fdb49850ceaad314^sys_idNOT IN81ddc96383933a10fdb49850ceaad327"/>
     <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
@@ -284,13 +284,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-04 09:03:59</sys_created_on>
         <sys_id>81ddc96383933a10fdb49850ceaad327</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_scope/>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-04 09:03:59</sys_updated_on>
+        <sys_updated_on>2026-03-04 14:13:34</sys_updated_on>
         <ui_id>6d4533c9-cf17-4e46-87ce-20768536cc38</ui_id>
         <updation_source/>
-        <values>H4sIAAAAAAAA/51TTW+cMBD9Lz6zCNiIwN6iRJEitY2URLlU0Wqwh12rxqa22Q1F/PeOl49EOVU9wbz5eu8xDMx0vu28ezE3zsmDZrufbxGTOmD0PjAp2I6lpajLNCn5Nsu3WZJkxVVa5dsqzcQWUOQsYhoapErpsXEUnkB1IR6G9JrXRS3KTVVn2eaqwGxT5kJsijwpuKgqkV3nsUNwRrtxpFYhXaugf/3/CfwolbA4i2nBEjePlu2GL6l/FaegQkWlD7O6L2J934bQIjdWLMC3uedpRekRSGRJxPDdoxZI62tQDiPWgBbgje3ZztuOAIsgHrXq14qj1J7GsVD77uQf2pgmSSiskQRxnJJruJ99nOD6Djw802juOzuX8qORHN1khcAaOuVvP2NTwWPrpdFTi4dKLd1GdY3+MTnB1gHLZyOkc0QC2yA0UJ911M9Hc35aWN5LfTFlTirDQa0ReG9l1fnAZ2CosKFB+wbaVurDvrXmJC/NxKWJD4qCuFbmTEvDKcfAA/GYfIX4nvC7C/wKVgYV32kMNY8Rc727VeDchxYycf+7C0wmZbOG/WRDaOFWtv6GFpxwpju+haufZq+ecumIwkvAHpZ/KiR6uiDJP0NnY38F8h/Y+BfEo2jsnQMAAA==</values>
+        <values>H4sIAAAAAAAA/51Ty27bMBD8F55lQQ9HrX0LEgQI0DZAEuRSBMKKXNlEKVIlKTuqoH/v0nokyDEnaYe7szMjamCm823n3bO5dk4eNNv/fo2Y1AGj94FpaJDtmfTYOBaxE6gu1MNQfKvySlzVGw5YbLb1ttpAmmUbUVwlvEoTvs2r2CE4o9040qiQrlXQv3ydgR+lEhZnkS1Y0ubRsv3w6UgKWpDuRL1Lkx3PsyLPkiT7vk2rIq/STOSAoiBCBRUqar2f3X0y6/s2lBa5sWIBfswzjytKjyAiSyKGbx61QFpfg3IYsQa0AG9sz/bedgRYBPGgVb92HKX2RMdC75uT/2hjmiShsUYyxHE6XMtyznGC61vw8ETU3Hd2buVHIzm6KQqBNXTK33zEpoaH1kujpxEPlVqmjeoa/WtKgq0Ey2cjpHMkAttgNEiffdRPR3N+XFTeSX0JZT5UhoNaK/DeyqrzQc/AUGFDRGUDbSv1oWytOcnLMGlp4oOiIq6VOdPScEVj4EF4TLlCfEf47QV+ASuDi59EQ8NjxFzvbhQ49+6FQiz/dkHJ5Gz2UE4xhBFuZeuvacEJZ7nja7j1E/eaKZeOJDwH7H75V8JBTzdI8o/Q2dg/Qfw7Nv4HKjoFWHUDAAA=</values>
         <workflow_reference/>
     </sys_hub_flow_logic_instance_v2>
     <sys_hub_pill_compound action="delete_multiple" query="attached_to=09ddc96383933a10fdb49850ceaad314"/>
@@ -306,7 +306,7 @@
     <sys_flow_trigger_plan action="delete_multiple" query="plan_id=549c89af83533a10fdb49850ceaad3ba"/>
     <sys_flow_subflow_plan action="delete_multiple" query="plan_id=549c89af83533a10fdb49850ceaad3ba^sys_idNOT IN09ddc96383933a10fdb49850ceaad364"/>
     <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
-        <plan>com.snc.process_flow.engine.ProcessPlan@883b1f8</plan>
+        <plan>com.snc.process_flow.engine.ProcessPlan@7e7ff9b2</plan>
         <plan_id display_value="Update Season Table from API">549c89af83533a10fdb49850ceaad3ba</plan_id>
         <snapshot>09ddc96383933a10fdb49850ceaad314</snapshot>
         <sys_created_by>admin</sys_created_by>
@@ -314,10 +314,10 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>09ddc96383933a10fdb49850ceaad364</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_overrides/>
         <sys_scope/>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-04 09:03:59</sys_updated_on>
+        <sys_updated_on>2026-03-04 14:13:34</sys_updated_on>
     </sys_flow_subflow_plan>
 </record_update>
