@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="DELETE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Syncs data about F1 Seasons from API to the relevant F1Now data table.</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>update_season_table_from_api</internal_name>
+        <label_cache>[]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name>Update Season Table from API</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>system</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-04 08:29:51</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>5506012383533a10fdb49850ceaad390</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>Update Season Table from API</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name>sys_hub_flow_5506012383533a10fdb49850ceaad390</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-04 08:31:04</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record>0046c92383533a10fdb49850ceaad339</version_record>
+    </sys_hub_flow>
+    <sys_translated_text action="DELETE" query="documentkey=5506012383533a10fdb49850ceaad390"/>
+    <sys_variable_value action="DELETE" query="document_key=5506012383533a10fdb49850ceaad390"/>
+    <sys_hub_flow_stage action="DELETE" query="flow=5506012383533a10fdb49850ceaad390"/>
+    <sys_flow_cat_variable_model action="DELETE" query="id=5506012383533a10fdb49850ceaad390^sys_idNOT IN1106012383533a10fdb49850ceaad391"/>
+    <sys_flow_cat_variable_model action="DELETE">
+        <id>5506012383533a10fdb49850ceaad390</id>
+        <name>Update Season Table from API</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-04 08:29:51</sys_created_on>
+        <sys_id>1106012383533a10fdb49850ceaad391</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-04 08:29:51</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="DELETE" query="flow_catalog_model=1106012383533a10fdb49850ceaad391"/>
+    <sys_hub_flow_input action="DELETE" query="model=5506012383533a10fdb49850ceaad390"/>
+    <sys_hub_flow_output action="DELETE" query="model=5506012383533a10fdb49850ceaad390"/>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=5506012383533a10fdb49850ceaad390"/>
+    <sys_hub_trigger_instance_v2 action="DELETE" query="flow=5506012383533a10fdb49850ceaad390"/>
+    <sys_hub_action_instance_v2 action="DELETE" query="flow=5506012383533a10fdb49850ceaad390^sys_idNOT INa016052383533a10fdb49850ceaad353"/>
+    <sys_hub_action_instance_v2 action="DELETE">
+        <action_type display_value="Get All Seasons">9294852f83133a10fdb49850ceaad3f3</action_type>
+        <action_type_parent display_value="Get All Seasons">936a2a5f831fb610fdb49850ceaad356</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Update Season Table from API">5506012383533a10fdb49850ceaad390</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-04 08:30:05</sys_created_on>
+        <sys_id>a016052383533a10fdb49850ceaad353</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-04 08:31:04</sys_updated_on>
+        <ui_id>60797551-ab45-412f-ac28-103bc5e2a3e3</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="DELETE" query="source_id=a016052383533a10fdb49850ceaad353"/>
+    <sys_hub_sub_flow_instance_v2 action="DELETE" query="flow=5506012383533a10fdb49850ceaad390"/>
+    <sys_hub_flow_logic_instance_v2 action="DELETE" query="flow=5506012383533a10fdb49850ceaad390"/>
+    <sys_hub_pill_compound action="DELETE" query="attached_to=5506012383533a10fdb49850ceaad390"/>
+    <sys_hub_flow_variable action="DELETE" query="model=5506012383533a10fdb49850ceaad390"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_input_5506012383533a10fdb49850ceaad390"/>
+    <sys_choice action="DELETE" query="name=var__m_sys_hub_flow_output_5506012383533a10fdb49850ceaad390"/>
+    <sys_flow_trigger_plan action="DELETE" query="plan_id=5506012383533a10fdb49850ceaad390"/>
+    <sys_flow_subflow_plan action="DELETE" query="plan_id=5506012383533a10fdb49850ceaad390"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</application>
+        <file_path/>
+        <instance_id>a447e870fbb822941feef633beefdced</instance_id>
+        <instance_name>dev318933</instance_name>
+        <name>sys_hub_flow_5506012383533a10fdb49850ceaad390</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow"><sys_hub_flow action="INSERT_OR_UPDATE"><access>public</access><acls/><active>false</active><annotation/><attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes><authored_on_release_version>28100</authored_on_release_version><callable_by_client_api>false</callable_by_client_api><category/><compiler_build/><copied_from/><copied_from_name/><description>Syncs data about F1 Seasons from API to the relevant F1Now data table.</description><display_name_after_preview/><flow_priority>MEDIUM</flow_priority><generation_source/><internal_name>update_season_table_from_api</internal_name><label_cache>[]</label_cache><latest_snapshot/><master_snapshot/><master_snapshot_digest/><name>Update Season Table from API</name><natlang/><outputs/><pre_compiled>false</pre_compiled><remote_trigger_id/><run_as>system</run_as><run_with_roles/><sc_callable>false</sc_callable><show_draft_actions>false</show_draft_actions><show_triggered_flows>false</show_triggered_flows><status>draft</status><substatus/><sys_class_name>sys_hub_flow</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-04 08:29:51</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>5506012383533a10fdb49850ceaad390</sys_id><sys_mod_count>4</sys_mod_count><sys_name>Update Season Table from API</sys_name><sys_overrides/><sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package><sys_policy/><sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope><sys_update_name>sys_hub_flow_5506012383533a10fdb49850ceaad390</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-04 08:31:04</sys_updated_on><type>flow</type><updation_source/><version>2</version><version_record>0046c92383533a10fdb49850ceaad339</version_record></sys_hub_flow><sys_translated_text action="delete_multiple" query="documentkey=5506012383533a10fdb49850ceaad390"/><sys_variable_value action="delete_multiple" query="document_key=5506012383533a10fdb49850ceaad390"/><sys_hub_flow_stage action="delete_multiple" query="flow=5506012383533a10fdb49850ceaad390"/><sys_flow_cat_variable_model action="delete_multiple" query="id=5506012383533a10fdb49850ceaad390^sys_idNOT IN1106012383533a10fdb49850ceaad391"/><sys_flow_cat_variable_model action="INSERT_OR_UPDATE"><id>5506012383533a10fdb49850ceaad390</id><name>Update Season Table from API</name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-04 08:29:51</sys_created_on><sys_id>1106012383533a10fdb49850ceaad391</sys_id><sys_mod_count>0</sys_mod_count><sys_scope/><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-04 08:29:51</sys_updated_on></sys_flow_cat_variable_model><sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=1106012383533a10fdb49850ceaad391"/><sys_hub_flow_input action="delete_multiple" query="model=5506012383533a10fdb49850ceaad390"/><sys_hub_flow_output action="delete_multiple" query="model=5506012383533a10fdb49850ceaad390"/><sys_hub_alias_mapping action="delete_multiple" query="source_id=5506012383533a10fdb49850ceaad390"/><sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=5506012383533a10fdb49850ceaad390"/><sys_hub_action_instance_v2 action="delete_multiple" query="flow=5506012383533a10fdb49850ceaad390^sys_idNOT INa016052383533a10fdb49850ceaad353"/><sys_hub_action_instance_v2 action="INSERT_OR_UPDATE"><action_type display_value="Get All Seasons">9294852f83133a10fdb49850ceaad3f3</action_type><action_type_parent display_value="Get All Seasons">936a2a5f831fb610fdb49850ceaad356</action_type_parent><attributes/><comment/><compiled_snapshot/><display_text/><flow display_value="Update Season Table from API">5506012383533a10fdb49850ceaad390</flow><generation_source/><order>1</order><parent_ui_id/><sys_class_name>sys_hub_action_instance_v2</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-03-04 08:30:05</sys_created_on><sys_id>a016052383533a10fdb49850ceaad353</sys_id><sys_mod_count>2</sys_mod_count><sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-03-04 08:31:04</sys_updated_on><ui_id>60797551-ab45-412f-ac28-103bc5e2a3e3</ui_id><updation_source/><values>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</values></sys_hub_action_instance_v2><sys_hub_alias_mapping action="delete_multiple" query="source_id=a016052383533a10fdb49850ceaad353"/><sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=5506012383533a10fdb49850ceaad390"/><sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=5506012383533a10fdb49850ceaad390"/><sys_hub_pill_compound action="delete_multiple" query="attached_to=5506012383533a10fdb49850ceaad390"/><sys_hub_flow_variable action="delete_multiple" query="model=5506012383533a10fdb49850ceaad390"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_5506012383533a10fdb49850ceaad390"/><sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_5506012383533a10fdb49850ceaad390"/><sys_flow_trigger_plan action="delete_multiple" query="plan_id=5506012383533a10fdb49850ceaad390"/><sys_flow_subflow_plan action="delete_multiple" query="plan_id=5506012383533a10fdb49850ceaad390"/></record_update>]]></payload>
+        <payload_hash>944120588</payload_hash>
+        <record_name>Update Season Table from API</record_name>
+        <reverted_from/>
+        <source>a728b414838b3210fdb49850ceaad344</source>
+        <source_table>sys_update_set</source_table>
+        <state>current</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-04 08:31:04</sys_created_on>
+        <sys_id>43460d2383533a10fdb49850ceaad3c5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19cb7f8d7e80000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-04 08:31:04</sys_updated_on>
+        <type>Flow</type>
+        <update_guid>8f460d23bf533a103b4fdea230ffecc3</update_guid>
+        <update_guid_history>8f460d23bf533a103b4fdea230ffecc3:944120588,d2460d2353533a1064c5dd90bb7e3864:-1013114105,5926c523c2533a10114217a2c651c246:2019903454,f21645232a533a109afa90cfb3d62cdd:-1619263031,d506812349533a1066fb8b896f763256:-210029746</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-04 08:32:53</sys_created_on>
+        <sys_db_object display_value="" name="sys_hub_flow">sys_hub_flow</sys_db_object>
+        <sys_id>061cfdcaa8c0437a8426dc5138fd9c99</sys_id>
+        <sys_metadata>5506012383533a10fdb49850ceaad390</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Season Table from API</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_scope_delete display_value="">35713dad8080494081ebbd8c8fb386a4</sys_scope_delete>
+        <sys_update_name>sys_hub_flow_5506012383533a10fdb49850ceaad390</sys_update_name>
+        <sys_update_version display_value="sys_hub_flow_5506012383533a10fdb49850ceaad390">43460d2383533a10fdb49850ceaad3c5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-04 08:32:53</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

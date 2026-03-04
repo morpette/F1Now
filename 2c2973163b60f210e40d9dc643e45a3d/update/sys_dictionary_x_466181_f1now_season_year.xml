@@ -2,7 +2,7 @@
     <sys_dictionary action="INSERT_OR_UPDATE" element="year" table="x_466181_f1now_season">
         <active>true</active>
         <array>false</array>
-        <attributes/>
+        <attributes>edge_encryption_enabled=true,format=none</attributes>
         <audit>false</audit>
         <calculation/>
         <choice>0</choice>
@@ -53,7 +53,7 @@
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
         <sys_update_name>sys_dictionary_x_466181_f1now_season_year</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-03 20:59:07</sys_updated_on>
+        <sys_updated_on>2026-03-04 09:34:52</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

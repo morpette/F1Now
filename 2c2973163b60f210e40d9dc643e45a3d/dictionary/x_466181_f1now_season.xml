@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="d2f6aa57831fb610fdb49850ceaad3dd" label="F1 Season" max_length="40" name="x_466181_f1now_season" type="collection">
-        <element label="Year" max_length="40" name="year" type="integer"/>
+        <element attributes="edge_encryption_enabled=true,format=none" label="Year" max_length="40" name="year" type="integer"/>
         <element label="Name" max_length="40" name="name" type="string"/>
         <element label="URL" max_length="40" name="url" type="string"/>
         <element label="ID" max_length="40" name="id" type="string"/>
