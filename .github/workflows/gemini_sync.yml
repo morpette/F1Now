@@ -21,7 +21,7 @@ jobs:
           # It captures the number, title, body, labels, and current state
           gh issue list --state all --limit 1000 \
           --json number,title,body,labels,state,updatedAt \
-          > githubIssues.json
+          > backlog.json
 
       - name: Commit and Push
         run: |
