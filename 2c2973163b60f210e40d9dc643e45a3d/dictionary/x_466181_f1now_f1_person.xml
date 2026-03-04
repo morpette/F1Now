@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element db_object_id="05bb9eba835fb210e039c596feaad31e" label="F1 Person" max_length="40" name="x_466181_f1now_f1_person" type="collection">
         <element label="Nationality" max_length="40" name="nationality" type="string"/>
-        <element attributes="edge_encryption_enabled=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
         <element label="URL" max_length="1024" name="url" type="url"/>
         <element label="First Name" max_length="40" name="first_name" type="string"/>
         <element label="Birthday" max_length="40" name="birthday" type="glide_date"/>
         <element label="Last Name" max_length="40" name="last_name" type="string"/>
+        <element label="ID" max_length="40" name="id" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="3" label="Person Type" max_length="40" name="person_type" type="choice">
             <choice>
                 <element inactive_on_update="false" label="Manager" sequence="1" value="manager"/>
