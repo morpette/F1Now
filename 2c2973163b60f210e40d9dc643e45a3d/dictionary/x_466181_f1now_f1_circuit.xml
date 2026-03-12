@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element db_object_id="64825d0683e33210e039c596feaad318" label="F1 Circuit" max_length="40" name="x_466181_f1now_f1_circuit" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Number of Corners" max_length="40" name="number_of_corners" type="integer"/>
+        <element label="Fastest Lap Driver ID" max_length="40" name="fastest_lap_driver_id" type="string"/>
+        <element label="Fastest Lap Team ID" max_length="40" name="fastest_lap_team_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Fastest Lap Year" max_length="40" name="fastest_lap_year" type="integer"/>
+        <element label="Circuit Name" max_length="100" name="circuit_name" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Lap Record" max_length="20" name="lap_record" type="string"/>
+        <element label="Circuit ID" max_length="40" name="circuit_id" type="string"/>
+        <element label="Country" max_length="40" name="country" type="string"/>
+        <element label="URL" max_length="1024" name="url" type="url"/>
+        <element attributes="edge_encryption_enabled=true" label="Circuit Length" max_length="38" name="circuit_length" type="decimal"/>
+        <element attributes="edge_encryption_enabled=true" label="First Participation Year" max_length="40" name="first_participation_year" type="integer"/>
+    </element>
+</database>
