@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=38445000,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Calls Get All Circuits action and creates/updates records in the F1 Circuit table</description>
+        <display_name_after_preview/>
+        <flow_priority>MEDIUM</flow_priority>
+        <generation_source/>
+        <internal_name>update_circuits_table</internal_name>
+        <label_cache>[{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.circuitLength","label":"2 - For Each➛circuits_object➛circuitLength","reference":"","reference_display":"circuitLength","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["circuit_length"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.lapRecord","label":"2 - For Each➛circuits_object➛lapRecord","reference":"","reference_display":"lapRecord","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["lap_record"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.firstParticipationYear","label":"2 - For Each➛circuits_object➛firstParticipationYear","reference":"","reference_display":"firstParticipationYear","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["first_participation_year"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.numberOfCorners","label":"2 - For Each➛circuits_object➛numberOfCorners","reference":"","reference_display":"numberOfCorners","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["number_of_corners"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.fastestLapDriverId","label":"2 - For Each➛circuits_object➛fastestLapDriverId","reference":"","reference_display":"fastestLapDriverId","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["fastest_lap_driver_id"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.fastestLapTeamId","label":"2 - For Each➛circuits_object➛fastestLapTeamId","reference":"","reference_display":"fastestLapTeamId","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["fastest_lap_team_id"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.fastestLapYear","label":"2 - For Each➛circuits_object➛fastestLapYear","reference":"","reference_display":"fastestLapYear","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["fastest_lap_year"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.circuitName","label":"2 - For Each➛circuits_object➛circuitName","reference":"","reference_display":"circuitName","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["circuit_name"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item","label":"2 - For Each➛circuits_object","reference_display":"circuits_object","type":"object","base_type":"object","usedInstances":{"9cf42b69-4d36-484d-ac2f-a67340348530":["circuit_id"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.city","label":"2 - For Each➛circuits_object➛city","reference":"","reference_display":"city","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["city"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.url","label":"2 - For Each➛circuits_object➛url","reference":"","reference_display":"url","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["url"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.name","label":"2 - For Each➛circuits_object➛name","reference":"","reference_display":"name","type":"string","base_type":"string","usedInstances":{},"attributes":{}},{"name":"fbd32be5-a6f8-4941-9fe7-305c61037f10.circuits.circuits","label":"1 - Get All Circuits➛Circuits➛circuits","reference":"","reference_display":"circuits","type":"array.object","base_type":"array.object","usedInstances":{"52f3036f-1729-4326-923b-12a84d527fa5":["items"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.circuitId","label":"2 - For Each➛circuits_object➛circuitId","reference":"","reference_display":"circuitId","type":"string","base_type":"string","usedInstances":{"9cf42b69-4d36-484d-ac2f-a67340348530":["circuit_id"],"08fc3714-e9ac-485a-89e2-45bfb9465542":["circuit_id"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.country","label":"2 - For Each➛circuits_object➛country","reference":"","reference_display":"country","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["country"]},"attributes":{}},{"name":"6b03e189-e4a8-44d9-b488-d6162dafee09.circuits.circuits","label":"1 - Get All Circuits➛Circuits➛circuits","reference":"","reference_display":"circuits","type":"array.object","base_type":"array.object","usedInstances":{"52f3036f-1729-4326-923b-12a84d527fa5":["items"]},"attributes":{}}]</label_cache>
+        <master_snapshot>66b6bed683ebb210e039c596feaad372</master_snapshot>
+        <master_snapshot_digest/>
+        <name>Update Circuits Table from API</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-12 19:08:43</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>29f42c5e83ab3210e039c596feaad326</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Update Circuits Table from API</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name>sys_hub_flow_29f42c5e83ab3210e039c596feaad326</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-13 05:59:10</sys_updated_on>
+        <type>subflow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=29f42c5e83ab3210e039c596feaad326"/>
+    <sys_variable_value action="delete_multiple" query="document_key=29f42c5e83ab3210e039c596feaad326"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=29f42c5e83ab3210e039c596feaad326"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=29f42c5e83ab3210e039c596feaad326^sys_idNOT INe1f42c5e83ab3210e039c596feaad32b"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>29f42c5e83ab3210e039c596feaad326</id>
+        <name>Update Circuits Table</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-12 19:08:43</sys_created_on>
+        <sys_id>e1f42c5e83ab3210e039c596feaad32b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-12 19:08:43</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=e1f42c5e83ab3210e039c596feaad32b"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=29f42c5e83ab3210e039c596feaad326"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=29f42c5e83ab3210e039c596feaad326"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=29f42c5e83ab3210e039c596feaad326"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=29f42c5e83ab3210e039c596feaad326"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=29f42c5e83ab3210e039c596feaad326^sys_idNOT IN78c4ba1283ebb210e039c596feaad3e9,c424b69e83abb210e039c596feaad391"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Update Circuits Table from API">29f42c5e83ab3210e039c596feaad326</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>52f3036f-1729-4326-923b-12a84d527fa5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-13 05:36:59</sys_created_on>
+        <sys_id>78c4ba1283ebb210e039c596feaad3e9</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-13 05:45:34</sys_updated_on>
+        <ui_id>08fc3714-e9ac-485a-89e2-45bfb9465542</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+2WX0/bMBDAvwrKcxo1SdNC3yZQpUkMJoaQJmCWE59bS46TOU6hq/rdd06cripsoxna9sBLJZ/vfvcnd/Xdrj3BvKkXTZJJQiFK4jSO4uEwHmVjxgA4n6RhxEee7ymaA2oamkogzcH3llTWVvhIRuNxeBwSHqriAX9JJnRWC4M6TFSlpKsbpzoLj063d9lCSKZBedPbe98rqUasAe1N13tXZlUCkTQFiYhrG8LRRRvCS8N/1vi5nKyrfVmhmY1q6HvwaEAxQKecygp8L6eKUVPolTc1ukaBBsoulVxtNRZCGQR6VvexEt+Qfjy0ehwwvwzau+2RuIK14mxRiAwuSyMK1UqawNxlIetcXbRJ2FIDp7U0XalRUlfIg9KGbINwEfFPi+LhqnM4E6rJzl3KIqNye6LGaJHWBir7UWpx/Ux1Wum5K7CtAgpBQo4+SU7LUqg5KXWxFI0fDDsP5hIPAZfYLQwqMVcBzWyOARaTBjOUnzXiG6qF9fUBMWi8aQpFvtY2xDZllxxp64MKVaZFad4hbgkuj43f9Xn6y0ahP3qCC5Cs2ulx19FEsLsaDdl6nUQ8HsZjPggn0clgFEfjwUkUp4MwoscjlkQTTpNAGMgDZ/uebTZfOo7105tkv7llFbUyetUD0xo24Zg+9mi1k4sENTeL3tmcN+bIk7QkGjIct8NZaHvVmCKHC10Zgv8nRmSipLaxyAqoPpzakD7ugj4jB12oOk9Bk4IT9KlAV4ezW8QlP20BNm5a4aRhPbEOTGP/6l7t5jDntDxrIE3f7bIN0PwPydeIeMLtWeMt1NW21vJwChptNk/fm7exfRvbt7H9/8e25yoIOQ67gaN23P0Xv/IdYNY98/vPfrcGOgdk6Ry4VTB8rVVwnAyH/2gbbIN8hWVwv0Z/cSFEZ2UF2pBWu3P3uz1xZ3/9ycZ4/x0jtvo+Gw0AAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=78c4ba1283ebb210e039c596feaad3e9"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Get All Circuits">b65d39a883a3fa50e039c596feaad3b1</action_type>
+        <action_type_parent display_value="Get All Circuits">dce4b154832bf650e039c596feaad3cd</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Update Circuits Table from API">29f42c5e83ab3210e039c596feaad326</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-13 05:34:12</sys_created_on>
+        <sys_id>c424b69e83abb210e039c596feaad391</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-13 05:36:59</sys_updated_on>
+        <ui_id>6b03e189-e4a8-44d9-b488-d6162dafee09</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c424b69e83abb210e039c596feaad391"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=29f42c5e83ab3210e039c596feaad326"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=29f42c5e83ab3210e039c596feaad326^sys_idNOT IN88db201e832f3210e039c596feaad3d0"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">04db201e832f3210e039c596feaad3d0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Update Circuits Table from API">29f42c5e83ab3210e039c596feaad326</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-12 19:38:39</sys_created_on>
+        <sys_id>88db201e832f3210e039c596feaad3d0</sys_id>
+        <sys_mod_count>14</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-13 05:49:28</sys_updated_on>
+        <ui_id>52f3036f-1729-4326-923b-12a84d527fa5</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/61SS2/bMAz+Lzonhl8w7NwKDAV62Ap0RS9DYdASnQiTJU+PpJ7h/z4qdrKh550kfiQ/fnzMzAQ/Bu9ezYNz8qjZ4cf7jkkdMfrPTMOA7MCkx8GxHTuDCtGe56pLC8zqZo8l1PuyFM2+K+t6L6qsygX0iGmTcGl5kN7dP8tCJEK6UcH09j+4+EkqYXETPoIlvR4tO8yfXH4asVXQoaKSL8iNFbEhKcjMGtE3WdrwIq+KPE3zusy6quiyXBSAoqK4W+bTNohPc4nsZNo7Lz1RRZ7uGH541AKpUA/K4Y4NoAV4Yyd28DYQYBHEs1bTPeIktSc6FmM/nPxN3FmaxsAeqSOOq/NutttIV5ifjOT4PHpp9Ip46NSWw40Kg/62yo/LwB6C8rdlEBIc8eEYNUcVm6T++8lcXm4FH6W+9rc5leGg7hZ4b2UXPLq4BlQ4EFE7wDhKfWxHa87ymkxahuSoyEh6ZS5UNJ5gAjwKT2hEkDwS/uUKv4GVsYuvREPJy7X79leIddc+NsXt2jQFOG7l6B+I7oybuOU93vDK5NbDEMilo4KvEXu6XX50TLRkyf+FLsb+jFL/YssfdOUwa0MDAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=29f42c5e83ab3210e039c596feaad326"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=29f42c5e83ab3210e039c596feaad326"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_29f42c5e83ab3210e039c596feaad326"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_29f42c5e83ab3210e039c596feaad326"/>
+    <sys_hub_flow_snapshot action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>28100</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Calls Get All Circuits action and creates/updates records in the F1 Circuit table</description>
+        <flow_priority>MEDIUM</flow_priority>
+        <internal_name>update_circuits_table</internal_name>
+        <label_cache>[{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.circuitLength","label":"2 - For Each➛circuits_object➛circuitLength","reference":"","reference_display":"circuitLength","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["circuit_length"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.lapRecord","label":"2 - For Each➛circuits_object➛lapRecord","reference":"","reference_display":"lapRecord","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["lap_record"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.firstParticipationYear","label":"2 - For Each➛circuits_object➛firstParticipationYear","reference":"","reference_display":"firstParticipationYear","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["first_participation_year"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.numberOfCorners","label":"2 - For Each➛circuits_object➛numberOfCorners","reference":"","reference_display":"numberOfCorners","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["number_of_corners"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.fastestLapDriverId","label":"2 - For Each➛circuits_object➛fastestLapDriverId","reference":"","reference_display":"fastestLapDriverId","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["fastest_lap_driver_id"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.fastestLapTeamId","label":"2 - For Each➛circuits_object➛fastestLapTeamId","reference":"","reference_display":"fastestLapTeamId","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["fastest_lap_team_id"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.fastestLapYear","label":"2 - For Each➛circuits_object➛fastestLapYear","reference":"","reference_display":"fastestLapYear","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["fastest_lap_year"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.circuitName","label":"2 - For Each➛circuits_object➛circuitName","reference":"","reference_display":"circuitName","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["circuit_name"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item","label":"2 - For Each➛circuits_object","reference_display":"circuits_object","type":"object","base_type":"object","usedInstances":{"9cf42b69-4d36-484d-ac2f-a67340348530":["circuit_id"]},"attributes":{"pills_draggable_inside_block":"true","pills_draggable_outside_block":"false"}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.city","label":"2 - For Each➛circuits_object➛city","reference":"","reference_display":"city","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["city"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.url","label":"2 - For Each➛circuits_object➛url","reference":"","reference_display":"url","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["url"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.name","label":"2 - For Each➛circuits_object➛name","reference":"","reference_display":"name","type":"string","base_type":"string","usedInstances":{},"attributes":{}},{"name":"fbd32be5-a6f8-4941-9fe7-305c61037f10.circuits.circuits","label":"1 - Get All Circuits➛Circuits➛circuits","reference":"","reference_display":"circuits","type":"array.object","base_type":"array.object","usedInstances":{"52f3036f-1729-4326-923b-12a84d527fa5":["items"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.circuitId","label":"2 - For Each➛circuits_object➛circuitId","reference":"","reference_display":"circuitId","type":"string","base_type":"string","usedInstances":{"9cf42b69-4d36-484d-ac2f-a67340348530":["circuit_id"],"08fc3714-e9ac-485a-89e2-45bfb9465542":["circuit_id"]},"attributes":{}},{"name":"52f3036f-1729-4326-923b-12a84d527fa5.item.country","label":"2 - For Each➛circuits_object➛country","reference":"","reference_display":"country","type":"string","base_type":"string","usedInstances":{"08fc3714-e9ac-485a-89e2-45bfb9465542":["country"]},"attributes":{}},{"name":"6b03e189-e4a8-44d9-b488-d6162dafee09.circuits.circuits","label":"1 - Get All Circuits➛Circuits➛circuits","reference":"","reference_display":"circuits","type":"array.object","base_type":"array.object","usedInstances":{"52f3036f-1729-4326-923b-12a84d527fa5":["items"]},"attributes":{}}]</label_cache>
+        <master>true</master>
+        <name>Update Circuits Table from API</name>
+        <natlang/>
+        <outputs/>
+        <parent_flow display_value="Update Circuits Table from API">29f42c5e83ab3210e039c596feaad326</parent_flow>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow_snapshot</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-13 05:45:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>66b6bed683ebb210e039c596feaad372</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name/>
+        <sys_overrides/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-13 05:49:29</sys_updated_on>
+        <type>subflow</type>
+        <version>2</version>
+    </sys_hub_flow_snapshot>
+    <sys_translated_text action="delete_multiple" query="documentkey=66b6bed683ebb210e039c596feaad372"/>
+    <sys_variable_value action="delete_multiple" query="document_key=66b6bed683ebb210e039c596feaad372"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=66b6bed683ebb210e039c596feaad372"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=66b6bed683ebb210e039c596feaad372^sys_idNOT IN26b6bed683ebb210e039c596feaad374"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>66b6bed683ebb210e039c596feaad372</id>
+        <name>Update Circuits Table</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-13 05:45:35</sys_created_on>
+        <sys_id>26b6bed683ebb210e039c596feaad374</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-13 05:45:35</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=26b6bed683ebb210e039c596feaad374"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=66b6bed683ebb210e039c596feaad372"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=66b6bed683ebb210e039c596feaad372"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=66b6bed683ebb210e039c596feaad372"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=66b6bed683ebb210e039c596feaad372"/>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=66b6bed683ebb210e039c596feaad372^sys_idNOT IN26b6bed683ebb210e039c596feaad387,eeb6bed683ebb210e039c596feaad388"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Get All Circuits">b65d39a883a3fa50e039c596feaad3b1</action_type>
+        <action_type_parent display_value="Get All Circuits">dce4b154832bf650e039c596feaad3cd</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>b65d39a883a3fa50e039c596feaad3b1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Circuits Table from API">66b6bed683ebb210e039c596feaad372</flow>
+        <generation_source/>
+        <order>1</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-13 05:45:35</sys_created_on>
+        <sys_id>26b6bed683ebb210e039c596feaad387</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-13 05:45:35</sys_updated_on>
+        <ui_id>6b03e189-e4a8-44d9-b488-d6162dafee09</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/4uOBQApu0wNAgAAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=26b6bed683ebb210e039c596feaad387"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
+        <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot>ab575ae253b3230034c6ddeeff7b12f1</compiled_snapshot>
+        <display_text/>
+        <flow display_value="Update Circuits Table from API">66b6bed683ebb210e039c596feaad372</flow>
+        <generation_source/>
+        <order>3</order>
+        <parent_ui_id>52f3036f-1729-4326-923b-12a84d527fa5</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-13 05:45:35</sys_created_on>
+        <sys_id>eeb6bed683ebb210e039c596feaad388</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-13 05:45:35</sys_updated_on>
+        <ui_id>08fc3714-e9ac-485a-89e2-45bfb9465542</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1WbWvbMBD+K0WfkxDbeWnzbaQEBl072lIYXSdk69QIZNmT5bZZyH/fyZLTkGYvycrYoF8COt0999zju+hul0RyMiHxeDgeMoiHSZrESb+fDLIR5wBCjNMoFgPSIZrlgJ6WpQpoc+iQB6ZqZ3yig9EoOo6oiHTxiL80kyarpUUfLqtSscVNcJ1FR9P1XTaXihvQZHJ71yElMwhrwZDJcuvqd0kqloJC12vH8ujcs9zF3C7KnbazXQCF4Y5Uv0PgyYLmgGwEUxV0SM40Z7YwCzKxpkaDAcYvtFqsPeZSWwQkzvepkt8w7XHf+QnA8jLwd+sjDXp5szhlll0hcmZrE1yzeSEzqLwwHASrlZ1u2rzDRWlloX1IU2aILlSd63MvCVkDtJ8HLXWFJKB0dTrmoQxxNS8eL1uWM6kbScKlKjKm1idmrZFpbR2fJanl9Q6tvbVV20mHRlCQY06as7KU+p6WpniQTR6knffuFR56QmGHcajkve6xzNXYwy/AejO0nzbmG2aky/UBYTB41SHVopoqVlXPZaPe9GvtSHsRQrnUK+ZCMiNL+w4TPECobNVppyX9aSOy554TEhSvNiYlzAWV/HONgXy5HMYi6Scj0Y3G8Ul3kMSj7kmcpN0oZscDPozHgg170kLeC7Hv+Wr1pcVxeQ5GcnI4rKLW1iwOgPGBDR17SDxGbdSiQN/b+cHVnDXhiKdYSQ1kOLX7Y2HsZROKOEKaylL8V7IykyVzrUYXwMz+qA3Sx02gT4iDKXSdp2BoISjm1GCq/bE9xIWYegDHm1U4e6gn6sAN9q85qN0CzBkrTxuQpu82sS2w/A+RrxHiBe6BGq9Bg7a1UfujYNBq9fLVehvbt7F9G9t/f2z3XCh//Y63C+Wsfci3H/Z2kYQc/y8sUP/Qby2T4fLoJlyGhTJ6rYVyNOz3/6ed0lf2Civltup/ca3EZGUFxlLv3abbf9vc2It/sHfefQdWA36Mpw0AAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=eeb6bed683ebb210e039c596feaad388"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=66b6bed683ebb210e039c596feaad372"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=66b6bed683ebb210e039c596feaad372^sys_idNOT IN6ab6bed683ebb210e039c596feaad385"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">04db201e832f3210e039c596feaad3d0</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value="Update Circuits Table from API">66b6bed683ebb210e039c596feaad372</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="For Each">098e1dc5c3e232002841b63b12d3ae33</logic_definition>
+        <order>2</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-13 05:45:35</sys_created_on>
+        <sys_id>6ab6bed683ebb210e039c596feaad385</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-13 05:49:29</sys_updated_on>
+        <ui_id>52f3036f-1729-4326-923b-12a84d527fa5</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/61TTW+jMBD9Lz4nCEiEQm5Vq0qVdrdSW/WyqtBgD4m1xmb9kZRF/PcdB0KrnnvC82bmzZuHPTATfBe8ezE3zsmDZvvfbysmdcToPDANLbI9kx5bx1bsBCrEeBiKOt1gtivXuIXdersV5bre7nZrUWRFLqBBTMuES8uD9G45jCORCOk6Bf3rd3Dxo1TC4iy8A0t6PVq2H76kpKBRWSmaMktLvsmLTZ6m+W6b1cWmznKxARQFESqoUVHpw7zxFwN838XQIjdWXIEfc8/TgtInisjTFcN3j1ogjW9AOVyxFrQAb2zP9t4GAiyCeNSqXyqOUnuiY7H23cl/NDFL01jYIC3EcUouYTU7OsHNHXh4Jmrug51L+dFIjm6yQmADQfnbz9hU8Nh5afTU4qFW126jQqt/TU6wheD6AwkJjkRgFxeN0uc9muejOT9dVd5LfTFlTirDQS0ReG9lHXzUMzBU2BJR1ULXSX2oOmtO8tJMWtrkoChIGmXONDRe2wR4FJ6Qr5DcE353gV/ByrjFT6Kh5nHFXO9uFTj3sQuZWP0NUcm02bxDNdkQW7iVnb+hASec5Y5v8SVM3IunXDqS8BKxh+v7iYmebpDkn6GzsX+i+A9s/A9ltI8WiQMAAA==</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=66b6bed683ebb210e039c596feaad372"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=66b6bed683ebb210e039c596feaad372"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_66b6bed683ebb210e039c596feaad372"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_66b6bed683ebb210e039c596feaad372"/>
+    <sys_hub_flow action="UPDATE">
+        <sys_id>29f42c5e83ab3210e039c596feaad326</sys_id>
+        <latest_snapshot>66b6bed683ebb210e039c596feaad372</latest_snapshot>
+        <compiler_build/>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=29f42c5e83ab3210e039c596feaad326"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=29f42c5e83ab3210e039c596feaad326^sys_idNOT IN36b6bed683ebb210e039c596feaad3b4"/>
+    <sys_flow_subflow_plan action="INSERT_OR_UPDATE">
+        <plan>com.snc.process_flow.engine.ProcessPlan@1984035</plan>
+        <plan_id display_value="Update Circuits Table from API">29f42c5e83ab3210e039c596feaad326</plan_id>
+        <snapshot>66b6bed683ebb210e039c596feaad372</snapshot>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-03-13 05:45:35</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>36b6bed683ebb210e039c596feaad3b4</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_overrides/>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-03-13 05:49:29</sys_updated_on>
+    </sys_flow_subflow_plan>
+</record_update>
