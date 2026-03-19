@@ -1,5 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
     <sys_ui_section caption="" section_id="1ac56ed23b30be90e40d9dc643e45a1c" sys_domain="global" table="x_466181_f1now_season_team" version="3" view="">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>season</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-19 16:55:27</sys_created_on>
+            <sys_id>7999c82483ff3610e039c596feaad3ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_466181_f1now_season_team" sys_domain="global" view="Default view">1ac56ed23b30be90e40d9dc643e45a1c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-19 16:55:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>year</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-19 16:55:27</sys_created_on>
+            <sys_id>3999c82483ff3610e039c596feaad3cf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_466181_f1now_season_team" sys_domain="global" view="Default view">1ac56ed23b30be90e40d9dc643e45a1c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-19 16:55:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-19 16:55:27</sys_created_on>
+            <sys_id>b599c82483ff3610e039c596feaad3d0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_466181_f1now_season_team" sys_domain="global" view="Default view">1ac56ed23b30be90e40d9dc643e45a1c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-19 16:55:27</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>team</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2026-03-19 16:55:27</sys_created_on>
+            <sys_id>3599c82483ff3610e039c596feaad3d1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_466181_f1now_season_team" sys_domain="global" view="Default view">1ac56ed23b30be90e40d9dc643e45a1c</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2026-03-19 16:55:27</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption/>
             <header>false</header>
