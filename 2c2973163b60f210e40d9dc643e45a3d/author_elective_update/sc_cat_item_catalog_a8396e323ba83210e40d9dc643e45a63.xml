@@ -58,7 +58,7 @@
         <update_guid_history>ca91414b748fb2102ddc027c16aa692e:0,6bd56854f18b32103905c635f8504bb0:454993037</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Service Catalog.F1Now - Import Drivers">8c0d18348353b210fdb49850ceaad369</sys_audit_delete>
+        <sys_audit_delete display_value="">8c0d18348353b210fdb49850ceaad369</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-23 16:27:21</sys_created_on>

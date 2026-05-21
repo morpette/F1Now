@@ -58,7 +58,7 @@
         <update_guid_history>18f5a894918b3210f598b71be141e3fa:-1496973035</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_466181_f1now_drivers.x_466181_f1now.admin">63f8fd2683533210fdb49850ceaad367</sys_audit_delete>
+        <sys_audit_delete display_value="">63f8fd2683533210fdb49850ceaad367</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-01 09:38:38</sys_created_on>

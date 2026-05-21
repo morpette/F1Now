@@ -149,7 +149,7 @@
         <update_guid_history>100d5834ca53b210d12d0867683f8e19:-542432919,8291414b8e8fb21056902521dc6ff12a:0,abd56854838b3210facbe383406c00ab:-80073821</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="F1Now - Import Drivers">980d58348353b210fdb49850ceaad330</sys_audit_delete>
+        <sys_audit_delete display_value="">980d58348353b210fdb49850ceaad330</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2026-02-23 16:27:23</sys_created_on>

@@ -10,12 +10,13 @@
         <create_access_controls>false</create_access_controls>
         <delete_access>false</delete_access>
         <filter_extension/>
+        <is_data_interface>false</is_data_interface>
         <is_df_table>false</is_df_table>
         <is_extendable>false</is_extendable>
         <label>F1 Contracts</label>
         <live_feed_enabled>false</live_feed_enabled>
         <name>x_466181_f1now_f1_contracts</name>
-        <number_ref display_value="FCO">9dfffad3831bba10e039c596feaad3a6</number_ref>
+        <number_ref display_value="">9dfffad3831bba10e039c596feaad3a6</number_ref>
         <provider_class/>
         <read_access>true</read_access>
         <scriptable_table>false</scriptable_table>

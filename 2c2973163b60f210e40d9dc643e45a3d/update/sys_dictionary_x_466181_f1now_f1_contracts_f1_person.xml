@@ -34,6 +34,7 @@
         <next_element/>
         <primary>false</primary>
         <read_only>false</read_only>
+        <read_only_option/>
         <read_roles/>
         <reference display_value="" name="x_466181_f1now_f1_person">x_466181_f1now_f1_person</reference>
         <reference_cascade_rule/>

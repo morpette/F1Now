@@ -58,7 +58,7 @@
         <update_guid_history>54f5a8943b8b3210a06a469a0dd24951:-877059815</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_466181_f1now_season_team.x_466181_f1now.user">c89d98b48353b210fdb49850ceaad3b1</sys_audit_delete>
+        <sys_audit_delete display_value="">c89d98b48353b210fdb49850ceaad3b1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>morten.pettersen</sys_created_by>
         <sys_created_on>2026-02-23 16:29:48</sys_created_on>

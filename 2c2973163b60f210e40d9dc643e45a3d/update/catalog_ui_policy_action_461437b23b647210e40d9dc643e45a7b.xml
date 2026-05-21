@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="catalog_ui_policy_action">
     <catalog_ui_policy_action action="INSERT_OR_UPDATE">
-        <catalog_item display_value="F1Now - Import Drivers">a46122be3b283210e40d9dc643e45adf</catalog_item>
+        <catalog_item/>
         <catalog_variable>IO:75ae27763b247210e40d9dc643e45af9</catalog_variable>
         <cleared>false</cleared>
         <disabled>true</disabled>

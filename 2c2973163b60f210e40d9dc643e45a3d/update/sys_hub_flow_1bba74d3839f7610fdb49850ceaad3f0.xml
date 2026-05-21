@@ -3,6 +3,7 @@
         <access>public</access>
         <acls/>
         <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,timeFromCreateToActivate=90980000,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>
@@ -36,7 +37,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>1bba74d3839f7610fdb49850ceaad3f0</sys_id>
-        <sys_mod_count>28</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Update Team Table from API</sys_name>
         <sys_overrides/>
         <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
@@ -44,11 +45,11 @@
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
         <sys_update_name>sys_hub_flow_1bba74d3839f7610fdb49850ceaad3f0</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-03-04 14:18:32</sys_updated_on>
+        <sys_updated_on>2026-05-06 06:09:06</sys_updated_on>
         <type>subflow</type>
         <updation_source/>
         <version>2</version>
-        <version_record>77c5926b83db3a10fdb49850ceaad3c2</version_record>
+        <version_record/>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=1bba74d3839f7610fdb49850ceaad3f0"/>
     <sys_variable_value action="delete_multiple" query="document_key=1bba74d3839f7610fdb49850ceaad3f0"/>
@@ -156,6 +157,7 @@
         <access>public</access>
         <acls/>
         <active>true</active>
+        <allow_high_security_roles>false</allow_high_security_roles>
         <annotation/>
         <attributes>browserActivatedIn=chrome,integrationActivatedIn=standalone,labelCacheCleanUpExecuted=true,viewActivatedIn=naturalLanguage</attributes>
         <authored_on_release_version>28100</authored_on_release_version>

@@ -118,7 +118,7 @@
         <reverted_from/>
         <source>a728b414838b3210fdb49850ceaad344</source>
         <source_table>sys_update_set</source_table>
-        <state>current</state>
+        <state>previous</state>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-03-04 08:31:04</sys_created_on>
         <sys_id>43460d2383533a10fdb49850ceaad3c5</sys_id>

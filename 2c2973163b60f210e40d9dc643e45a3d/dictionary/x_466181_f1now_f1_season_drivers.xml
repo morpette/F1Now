@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="enforce_dot_walk_cross_scope_access=true" db_object_id="7fe6c764c334cf106704fdec0501314e" label="F1 Season Drivers" max_length="40" name="x_466181_f1now_f1_season_drivers" type="collection">
+        <element label="Season" max_length="32" name="season" reference="x_466181_f1now_season" type="reference"/>
+        <element label="Year" max_length="40" name="year" type="integer"/>
+        <element label="Driver" max_length="32" name="driver" reference="x_466181_f1now_f1_person" type="reference"/>
+        <index name="index">
+            <element name="driver"/>
+        </index>
+        <index name="index2">
+            <element name="season"/>
+        </index>
+    </element>
+</database>

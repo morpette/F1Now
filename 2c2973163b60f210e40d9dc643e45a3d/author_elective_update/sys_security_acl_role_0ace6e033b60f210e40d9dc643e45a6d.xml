@@ -58,7 +58,7 @@
         <update_guid_history>58f5a894f48b32102999d709e0ca485b:16812347</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_466181_f1now_seasons.x_466181_f1now.user">0c6d5c748353b210fdb49850ceaad3c3</sys_audit_delete>
+        <sys_audit_delete display_value="">0c6d5c748353b210fdb49850ceaad3c3</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-23 16:28:59</sys_created_on>

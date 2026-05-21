@@ -58,7 +58,7 @@
         <update_guid_history>ce91414bd18fb210ea5cfd8767052c45:0,67d56854728b321043b91167fff911bd:1471893451</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="Can We Help You?.F1Now - Import Drivers">940d18348353b210fdb49850ceaad3f1</sys_audit_delete>
+        <sys_audit_delete display_value="">940d18348353b210fdb49850ceaad3f1</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2026-02-23 16:27:22</sys_created_on>

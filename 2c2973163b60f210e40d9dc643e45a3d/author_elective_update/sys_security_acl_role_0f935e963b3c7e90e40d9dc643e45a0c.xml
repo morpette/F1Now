@@ -58,7 +58,7 @@
         <update_guid_history>14f5a894278b321038f4e068ff562e7d:-602870484</update_guid_history>
     </sys_update_version>
     <sys_metadata_delete action="INSERT_OR_UPDATE">
-        <sys_audit_delete display_value="x_466181_f1now_teams.x_466181_f1now.admin">664dd4748353b210fdb49850ceaad36f</sys_audit_delete>
+        <sys_audit_delete display_value="">664dd4748353b210fdb49850ceaad36f</sys_audit_delete>
         <sys_class_name>sys_metadata_delete</sys_class_name>
         <sys_created_by>morten.pettersen</sys_created_by>
         <sys_created_on>2026-02-23 16:28:37</sys_created_on>

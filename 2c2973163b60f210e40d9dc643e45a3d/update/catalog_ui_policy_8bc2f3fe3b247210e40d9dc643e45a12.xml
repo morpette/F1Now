@@ -7,7 +7,7 @@
         <applies_target_record>true</applies_target_record>
         <applies_to>item</applies_to>
         <catalog_conditions>IO:24e0bbba3b247210e40d9dc643e45aa7=Yes^EQ</catalog_conditions>
-        <catalog_item display_value="F1Now - Import Drivers">a46122be3b283210e40d9dc643e45adf</catalog_item>
+        <catalog_item/>
         <conditions/>
         <description/>
         <global>true</global>
