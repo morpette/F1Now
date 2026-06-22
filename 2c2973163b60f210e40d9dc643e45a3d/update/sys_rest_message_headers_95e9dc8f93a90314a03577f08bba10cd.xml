@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_headers">
+    <sys_rest_message_headers action="INSERT_OR_UPDATE">
+        <name>Accept</name>
+        <rest_message display_value="F1 API">b3f818c793e90314a03577f08bba1082</rest_message>
+        <sys_class_name>sys_rest_message_headers</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 12:21:46</sys_created_on>
+        <sys_id>95e9dc8f93a90314a03577f08bba10cd</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Accept</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name>sys_rest_message_headers_95e9dc8f93a90314a03577f08bba10cd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 12:21:46</sys_updated_on>
+        <value>application/json</value>
+    </sys_rest_message_headers>
+</record_update>
