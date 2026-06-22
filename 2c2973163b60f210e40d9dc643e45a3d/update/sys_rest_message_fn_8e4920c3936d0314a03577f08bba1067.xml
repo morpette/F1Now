@@ -5,26 +5,26 @@
         <basic_auth_profile/>
         <basic_auth_user/>
         <content/>
-        <function_name>Default GET</function_name>
+        <function_name>get_teams_by_year</function_name>
         <http_method>get</http_method>
         <lock>false</lock>
         <oauth2_profile/>
         <protocol_name/>
-        <qualified_name>F1 API Teams [ Default GET ]</qualified_name>
-        <rest_endpoint>https://f1api.dev</rest_endpoint>
+        <qualified_name>F1 API Teams [ get_teams_by_year ]</qualified_name>
+        <rest_endpoint>https://f1api.dev/api/${year}/teams</rest_endpoint>
         <rest_message display_value="F1 API Teams">b4cf5447932d0314a03577f08bba10bd</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-06-22 12:47:30</sys_created_on>
-        <sys_id>7bdf9447932d0314a03577f08bba1002</sys_id>
+        <sys_created_by>morten</sys_created_by>
+        <sys_created_on>2026-06-22 13:28:55</sys_created_on>
+        <sys_id>8e4920c3936d0314a03577f08bba1067</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Default GET</sys_name>
+        <sys_name>get_teams_by_year</sys_name>
         <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
         <sys_policy/>
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
-        <sys_update_name>sys_rest_message_fn_7bdf9447932d0314a03577f08bba1002</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-22 12:47:30</sys_updated_on>
+        <sys_update_name>sys_rest_message_fn_8e4920c3936d0314a03577f08bba1067</sys_update_name>
+        <sys_updated_by>morten</sys_updated_by>
+        <sys_updated_on>2026-06-22 13:28:55</sys_updated_on>
         <use_auth_mid_server/>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server/>

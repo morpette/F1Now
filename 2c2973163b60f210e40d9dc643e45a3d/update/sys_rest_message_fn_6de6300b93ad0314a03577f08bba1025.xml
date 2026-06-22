@@ -5,26 +5,26 @@
         <basic_auth_profile/>
         <basic_auth_user/>
         <content/>
-        <function_name>search_circuits</function_name>
+        <function_name>get_current_season</function_name>
         <http_method>get</http_method>
         <lock>false</lock>
         <oauth2_profile/>
         <protocol_name/>
-        <qualified_name>F1 API [ search_circuits ]</qualified_name>
-        <rest_endpoint>https://f1api.dev/api/circuits/search</rest_endpoint>
-        <rest_message display_value="F1 API">b3f818c793e90314a03577f08bba1082</rest_message>
+        <qualified_name>F1 API Seasons &amp; Schedule [ get_current_season ]</qualified_name>
+        <rest_endpoint>https://f1api.dev/api/current</rest_endpoint>
+        <rest_message display_value="F1 API Seasons &amp; Schedule">9a11388793ad0314a03577f08bba104b</rest_message>
         <sys_class_name>sys_rest_message_fn</sys_class_name>
-        <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2026-06-22 12:36:59</sys_created_on>
-        <sys_id>6c7dd403932d0314a03577f08bba10bd</sys_id>
+        <sys_created_by>morten</sys_created_by>
+        <sys_created_on>2026-06-22 14:28:19</sys_created_on>
+        <sys_id>6de6300b93ad0314a03577f08bba1025</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>search_circuits</sys_name>
+        <sys_name>get_current_season</sys_name>
         <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
         <sys_policy/>
         <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
-        <sys_update_name>sys_rest_message_fn_6c7dd403932d0314a03577f08bba10bd</sys_update_name>
-        <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2026-06-22 12:36:59</sys_updated_on>
+        <sys_update_name>sys_rest_message_fn_6de6300b93ad0314a03577f08bba1025</sys_update_name>
+        <sys_updated_by>morten</sys_updated_by>
+        <sys_updated_on>2026-06-22 14:28:19</sys_updated_on>
         <use_auth_mid_server/>
         <use_basic_auth>false</use_basic_auth>
         <use_mid_server/>

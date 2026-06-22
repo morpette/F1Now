@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="INSERT_OR_UPDATE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>get_next_race</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>F1 API Seasons &amp; Schedule [ get_next_race ]</qualified_name>
+        <rest_endpoint>https://f1api.dev/api/current/next</rest_endpoint>
+        <rest_message display_value="F1 API Seasons &amp; Schedule">9a11388793ad0314a03577f08bba104b</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>morten</sys_created_by>
+        <sys_created_on>2026-06-22 14:28:59</sys_created_on>
+        <sys_id>9817b8c793ad0314a03577f08bba100b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>get_next_race</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name>sys_rest_message_fn_9817b8c793ad0314a03577f08bba100b</sys_update_name>
+        <sys_updated_by>morten</sys_updated_by>
+        <sys_updated_on>2026-06-22 14:28:59</sys_updated_on>
+        <use_auth_mid_server/>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+</record_update>

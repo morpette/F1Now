@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn">
+    <sys_rest_message_fn action="DELETE">
+        <authentication_type>inherit_from_parent</authentication_type>
+        <basic_auth_password/>
+        <basic_auth_profile/>
+        <basic_auth_user/>
+        <content/>
+        <function_name>get_circuits_by_year</function_name>
+        <http_method>get</http_method>
+        <lock>false</lock>
+        <oauth2_profile/>
+        <protocol_name/>
+        <qualified_name>F1 API [ get_circuits_by_year ]</qualified_name>
+        <rest_endpoint>https://f1api.dev/api/${year}/circuits</rest_endpoint>
+        <rest_message display_value="F1 API">b3f818c793e90314a03577f08bba1082</rest_message>
+        <sys_class_name>sys_rest_message_fn</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 12:37:12</sys_created_on>
+        <sys_id>437dd803932d0314a03577f08bba105f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>get_circuits_by_year</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_update_name>sys_rest_message_fn_437dd803932d0314a03577f08bba105f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 12:37:12</sys_updated_on>
+        <use_auth_mid_server/>
+        <use_basic_auth>false</use_basic_auth>
+        <use_mid_server/>
+        <use_mutual_auth>false</use_mutual_auth>
+    </sys_rest_message_fn>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</application>
+        <file_path/>
+        <instance_id>376114cbeb9c4f50c040fddacad0cd41</instance_id>
+        <instance_name>dev387048</instance_name>
+        <name>sys_rest_message_fn_437dd803932d0314a03577f08bba105f</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rest_message_fn"><sys_rest_message_fn action="INSERT_OR_UPDATE"><authentication_type>inherit_from_parent</authentication_type><basic_auth_password/><basic_auth_profile/><basic_auth_user/><content/><function_name>get_circuits_by_year</function_name><http_method>get</http_method><lock>false</lock><oauth2_profile/><protocol_name/><qualified_name>F1 API [ get_circuits_by_year ]</qualified_name><rest_endpoint>https://f1api.dev/api/${year}/circuits</rest_endpoint><rest_message display_value="F1 API">b3f818c793e90314a03577f08bba1082</rest_message><sys_class_name>sys_rest_message_fn</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-06-22 12:37:12</sys_created_on><sys_id>437dd803932d0314a03577f08bba105f</sys_id><sys_mod_count>0</sys_mod_count><sys_name>get_circuits_by_year</sys_name><sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package><sys_policy/><sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope><sys_update_name>sys_rest_message_fn_437dd803932d0314a03577f08bba105f</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-06-22 12:37:12</sys_updated_on><use_auth_mid_server/><use_basic_auth>false</use_basic_auth><use_mid_server/><use_mutual_auth>false</use_mutual_auth></sys_rest_message_fn></record_update>]]></payload>
+        <payload_hash>675293096</payload_hash>
+        <record_name>get_circuits_by_year</record_name>
+        <reverted_from/>
+        <source>3bff0c4f93290314a03577f08bba100b</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 12:37:12</sys_created_on>
+        <sys_id>fc8dd803932d0314a03577f08bba10d3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>19eef55b7650000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 12:37:12</sys_updated_on>
+        <type>HTTP Method</type>
+        <update_guid>bc8dd8037e2d0314723a318a2d924cd2</update_guid>
+        <update_guid_history>bc8dd8037e2d0314723a318a2d924cd2:675293096</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2026-06-22 14:01:41</sys_created_on>
+        <sys_db_object display_value="" name="sys_rest_message_fn">sys_rest_message_fn</sys_db_object>
+        <sys_id>12c8be1c868d4c0393770775414c2559</sys_id>
+        <sys_metadata>437dd803932d0314a03577f08bba105f</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>get_circuits_by_year</sys_name>
+        <sys_package display_value="F1Now" source="x_466181_f1now">2c2973163b60f210e40d9dc643e45a3d</sys_package>
+        <sys_parent display_value="F1 API Drivers">b3f818c793e90314a03577f08bba1082</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="F1Now">2c2973163b60f210e40d9dc643e45a3d</sys_scope>
+        <sys_scope_delete display_value="">35713dad8080494081ebbd8c8fb386a4</sys_scope_delete>
+        <sys_update_name>sys_rest_message_fn_437dd803932d0314a03577f08bba105f</sys_update_name>
+        <sys_update_version display_value="sys_rest_message_fn_437dd803932d0314a03577f08bba105f">fc8dd803932d0314a03577f08bba10d3</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2026-06-22 14:01:41</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
